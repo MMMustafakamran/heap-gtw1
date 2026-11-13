@@ -79,7 +79,7 @@ export const runRouteErrorWithFinding: PageActionHandler = async (page, config, 
 export const runSurfaceWithFinding: PageActionHandler = async (page, config, root, ctx) => {
   try {
     await runStandardAction(page, config, root, ctx);
-    const surface = page.locator('[data-generative-ui-surface]');
+    const surface = page.locator('[data-generative-ui-surface], [data-generative-ui-chat-surface], [data-generative-ui-root], .a2ui-surface');
     const errorCard = page.getByText('Unable to display', { exact: false }).first();
     const rendered = (await surface.count()) > 0;
     const broken = await errorCard.isVisible().catch(() => false);
@@ -655,7 +655,7 @@ export const runSurfaceFirstWithFinding: PageActionHandler = async (page, config
   try {
     mark('action', 'prompt');
     const msgCount = await sendPrompt(page, config.prompt, { timeoutMs: 15000 });
-    const surface = page.locator('[data-generative-ui-surface]');
+    const surface = page.locator('[data-generative-ui-surface], [data-generative-ui-chat-surface], [data-generative-ui-root], .a2ui-surface');
     const errorCard = page.getByText('Unable to display', { exact: false }).first();
     const deadline = Date.now() + 120_000;
     while (Date.now() < deadline) {
