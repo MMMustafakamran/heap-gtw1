@@ -61,6 +61,33 @@ const runSharedStateWriteAction: PageActionHandler = async (page, config, _root,
   }
 };
 
+/** MCP Apps: the app renders inside its own iframe, so look for its title in every frame. */
+const runMcpAppsAction: PageActionHandler = async (page, config, _root, ctx) => {
+  try {
+    const msgCount = await sendPrompt(page, config.prompt, { timeoutMs: 15000 });
+    const deadline = Date.now() + 90000;
+    let found = false;
+    while (!found && Date.now() < deadline) {
+      for (const f of page.frames()) {
+        if (await f.getByText('Budget Allocator').first().isVisible().catch(() => false)) { found = true; break; }
+      }
+      if (!found) await sleep(1000);
+    }
+    void checkpoint('render', 'Budget Allocator MCP app', () => (found ? 'Budget Allocator' : null));
+    if (found) {
+      mark('action', 'Budget Allocator MCP app');
+      const frameEl = page.locator('iframe').last();
+      if (await frameEl.isVisible().catch(() => false)) await glideTo(page, frameEl, 3000);
+    } else {
+      mark('error', 'MCP app missing');
+      ctx.fail('Nothing rendered: Budget Allocator MCP app missing.');
+    }
+    await waitForAgentResponseCompletion(page, 2000, msgCount).catch(() => {});
+  } finally {
+    await writeFinding(page, config.id, config);
+  }
+};
+
 export const MAP_B: Record<string, PageActionHandler> = {
   'gen-ui-tool-based': expectEffect('.recharts-wrapper', 'bar chart rendered in the chat'),
   'gen-ui-tool-rendering': expectEffect('p', 'tool call rendered (Called the weather API for ...)', { text: /Called the weather API for/ }),
@@ -68,7 +95,7 @@ export const MAP_B: Record<string, PageActionHandler> = {
   'a2ui': expectEffect('[data-generative-ui-surface], [data-a2ui-surface], .a2ui-surface, [class*="a2ui"]', 'A2UI surface in the chat'),
   'a2ui-dynamic-schema': expectEffect('[data-generative-ui-surface], [data-a2ui-surface], [data-testid="declarative-card"], [class*="a2ui"]', 'A2UI dashboard in the chat'),
   'a2ui-fixed-schema': expectEffect('[data-testid="a2ui-fixed-card"], [data-a2ui-surface], [class*="a2ui"]', 'flight card with SFO and JFK', { text: /SFO[\s\S]*JFK/ }),
-  'gen-ui-mcp-apps': expectEffect('div', 'Budget Allocator MCP app', { text: /Budget Allocator/, waitMs: 60000 }),
+  'gen-ui-mcp-apps': runMcpAppsAction,
   'gen-ui-open-gen-ui': expectEffect('iframe', 'generated UI iframe', { waitMs: 60000 }),
   'shared-state-read': expectEffect('p', 'Language: spanish from agent state', { text: /Language: spanish/ }),
   'shared-state-write': runSharedStateWriteAction,
