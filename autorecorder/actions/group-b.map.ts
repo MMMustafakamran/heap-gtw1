@@ -15,10 +15,13 @@ function expectEffect(selector: string, what: string, opts: { text?: RegExp; wai
   return async (page: Page, config: PageRecordConfig, root: string, ctx: ActionContext) => {
     try {
       if (opts.before) await opts.before(page);
-      await runStandardAction(page, config, root, ctx);
+      // The effect may be the whole reply (chart, iframe, card, no assistant text): wait for it, not for text.
+      const msgCount = await sendPrompt(page, config.prompt, { timeoutMs: 15000 });
       let el = page.locator(selector);
       if (opts.text) el = el.filter({ hasText: opts.text });
-      const ok = await el.first().waitFor({ state: 'visible', timeout: opts.waitMs ?? 20000 }).then(() => true).catch(() => false);
+      const ok = await el.first().waitFor({ state: 'visible', timeout: opts.waitMs ?? 90000 }).then(() => true).catch(() => false);
+      await waitForAgentResponseCompletion(page, 3000, msgCount, undefined, {}).catch(() => {});
+      void root;
       void checkpoint('render', what, () => (ok ? probeText(el.last()) : null));
       if (ok) {
         mark('action', what);
@@ -44,9 +47,18 @@ const runSharedStateWriteAction: PageActionHandler = async (page, config, _root,
   void checkpoint('state', 'UI wrote language: spanish', () => (spanish ? 'Language: spanish' : null));
   if (!spanish) ctx.fail('Toggle Language did not change the language.');
   await sleep(1200);
-  const msgCount = await sendPrompt(page, config.prompt, { timeoutMs: 15000 });
-  await waitForAgentResponseCompletion(page, 4000, msgCount).catch(() => {});
-  await sleep(2000);
+  try {
+    const msgCount = await sendPrompt(page, config.prompt, { timeoutMs: 15000 });
+    await waitForAgentResponseCompletion(page, 4000, msgCount).catch(() => {});
+    await sleep(2000);
+    // The doc promises the agent answers in the language the UI wrote.
+    const reply = (await page.locator('body').innerText().catch(() => '')).toLowerCase();
+    const englishAnswer = /answer in english|respond in english|in english/.test(reply) && !/espa[nñ]ol|spanish\./.test(reply);
+    void checkpoint('reply', 'agent answers in spanish', () => (englishAnswer ? null : 'spanish'));
+    if (englishAnswer) ctx.fail('The UI wrote language: spanish, but the agent still answers in English.');
+  } finally {
+    await writeFinding(page, config.id, config);
+  }
 };
 
 export const MAP_B: Record<string, PageActionHandler> = {

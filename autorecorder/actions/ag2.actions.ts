@@ -644,3 +644,38 @@ export const runHeadlessUiAction: PageActionHandler = async (page, config, _root
   await sleep(5000);
 };
 // ── END GROUP A handlers ──
+
+// ── COORDINATOR handlers (CI round 1)
+/**
+ * Generative UI pages whose reply is often ONLY a component (no assistant text): the standard wait
+ * ("assistant message got content") times out although the card is on screen. Wait for the surface
+ * (or an error card / plain text reply) instead, then let the reply settle.
+ */
+export const runSurfaceFirstWithFinding: PageActionHandler = async (page, config, _root, ctx) => {
+  try {
+    mark('action', 'prompt');
+    const msgCount = await sendPrompt(page, config.prompt, { timeoutMs: 15000 });
+    const surface = page.locator('[data-generative-ui-surface]');
+    const errorCard = page.getByText('Unable to display', { exact: false }).first();
+    const deadline = Date.now() + 120_000;
+    while (Date.now() < deadline) {
+      if ((await surface.count()) > 0 || (await errorCard.isVisible().catch(() => false))) break;
+      await sleep(1000);
+    }
+    await settle(page, msgCount, ctx);
+    await sleep(2500);
+    const rendered = (await surface.count()) > 0;
+    const broken = await errorCard.isVisible().catch(() => false);
+    void checkpoint('render', 'generative UI surface rendered', () => (rendered && !broken ? probeText(surface.last()) : null));
+    if (broken) {
+      await glideTo(page, errorCard, 2500);
+      ctx.fail(`Surface error: ${(await errorCard.innerText().catch(() => '')).slice(0, 160)}`);
+    } else if (!rendered) {
+      ctx.fail('No generative UI surface rendered; the reply is plain text/markdown.');
+    } else {
+      await glideTo(page, surface.last(), 2500);
+    }
+  } finally {
+    await writeFinding(page, config.id, config);
+  }
+};
