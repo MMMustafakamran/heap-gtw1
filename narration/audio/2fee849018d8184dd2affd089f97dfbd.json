@@ -1,0 +1,9 @@
+{
+ "text": "So here the doc passes the token in properties, and says it gets forwarded to the chat endpoint as a request header.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 8.081,
+ "file": "2fee849018d8184dd2affd089f97dfbd.mp3",
+ "clip": "AG2-react-34-Auth",
+ "at": "evidence"
+}

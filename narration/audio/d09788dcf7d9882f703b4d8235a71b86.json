@@ -1,0 +1,9 @@
+{
+ "text": "But the chat has no agent id, so it runs on the default agent.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 4.69,
+ "file": "d09788dcf7d9882f703b4d8235a71b86.mp3",
+ "clip": "AG2-react-09-HeadlessThreads",
+ "at": "evidence#2"
+}

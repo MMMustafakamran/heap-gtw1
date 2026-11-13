@@ -1,0 +1,21 @@
+{
+ "clip": "AG2-react-18-A2UIFixedSchema",
+ "segments": [
+  {
+   "at": "doc",
+   "text": "Ok so, this is the fixed schema A2UI page in the CopilotKit docs, for AG2, and I have implemented this page."
+  },
+  {
+   "at": "ide",
+   "text": "This is the code from the doc."
+  },
+  {
+   "at": "demo",
+   "text": "Moving on to the demo. I asked for a United flight from SFO to JFK, the flight card shows up, but uh, the airports, airline and price are all empty."
+  },
+  {
+   "at": "+",
+   "text": "So this needs a fix, kindly check it."
+  }
+ ]
+}

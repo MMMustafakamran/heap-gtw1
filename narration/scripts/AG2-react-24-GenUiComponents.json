@@ -1,0 +1,9 @@
+{
+  "clip": "AG2-react-24-GenUiComponents",
+  "segments": [
+    { "at": "doc", "text": "Ok so, this is the components and surfaces page in the CopilotKit docs, for AG2, and I have implemented this page." },
+    { "at": "ide", "text": "This is the runtime and the provider code from the doc." },
+    { "at": "demo", "text": "Moving on to the demo. Umm, I asked it to compare the plans in a table, and the chat never answered, the console says chat needs a thread ID." },
+    { "at": "+", "text": "Alright, that's the issue, kindly sort it out." }
+  ]
+}

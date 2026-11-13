@@ -1,0 +1,9 @@
+{
+  "clip": "AG2-react-07-ProgrammaticControl",
+  "segments": [
+    { "at": "doc", "text": "Ok so, this is the programmatic control page in the CopilotKit docs, for AG2, and I have implemented this page." },
+    { "at": "ide", "text": "This is the code from the doc." },
+    { "at": "demo", "text": "Moving on to the demo. The run agent button works and the agent replied, but umm, the page throws a hydration failed error on load." },
+    { "at": "+", "text": "So kindly look into it." }
+  ]
+}

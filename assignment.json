@@ -1,0 +1,1141 @@
+{
+ "framework": "AG2",
+ "ui": "react",
+ "repo": "heap-gtw1",
+ "docBase": "https://docs.copilotkit.ai/ag2/",
+ "versions": {
+  "@copilotkit/react-core": "1.87.1",
+  "@copilotkit/runtime": "1.87.1",
+  "@ag-ui/client": "1.0.4",
+  "next": "16.4.6",
+  "react": "19.3.0",
+  "ag2": "1.3.1",
+  "ag-ui-protocol": "1.0.0",
+  "fastapi": "0.162.5",
+  "uvicorn": "0.54.0"
+ },
+ "testedContext": {
+  "os": "Microsoft Windows 11 Pro",
+  "packageManager": "npm 12 (Node 26.7.0)"
+ },
+ "report": {
+  "style": "team",
+  "h1": "AG2",
+  "title": "AG2 React",
+  "clipsToUpload": false,
+  "columns": [
+   "Page/Section",
+   "AG2"
+  ],
+  "resultColumn": 1,
+  "guidesHeading": "React Guides",
+  "quickstartHeading": "Quickstarts",
+  "quickstartHeader": [
+   "Page/Section",
+   "AG2"
+  ]
+ },
+ "sections": [
+  {
+   "label": "Basics",
+   "cells": [
+    "Section"
+   ]
+  },
+  {
+   "label": "Chat",
+   "cells": [
+    "Sub section"
+   ]
+  },
+  {
+   "label": "Custom Look and Feel",
+   "cells": [
+    "Sub section"
+   ]
+  },
+  {
+   "label": "Threads",
+   "cells": [
+    "Sub section"
+   ]
+  },
+  {
+   "label": "Generative UI",
+   "cells": [
+    "Section"
+   ]
+  },
+  {
+   "label": "Controlled",
+   "cells": [
+    "Sub section"
+   ]
+  },
+  {
+   "label": "Components and surfaces",
+   "cells": [
+    "Sub section"
+   ]
+  },
+  {
+   "label": "A2UI",
+   "cells": [
+    "Sub section"
+   ]
+  },
+  {
+   "label": "Declarative",
+   "cells": [
+    "Sub section"
+   ]
+  },
+  {
+   "label": "Open-ended",
+   "cells": [
+    "Sub section"
+   ]
+  },
+  {
+   "label": "Interactivity",
+   "cells": [
+    "Section"
+   ]
+  },
+  {
+   "label": "Shared state",
+   "cells": [
+    "Sub section"
+   ]
+  },
+  {
+   "label": "Human-in-the-loop",
+   "cells": [
+    "Sub section"
+   ]
+  },
+  {
+   "label": "Agent capabilities",
+   "cells": [
+    "Section"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "id": "quickstart",
+   "label": "JS (React)",
+   "kind": "quickstart",
+   "group": null,
+   "child": false,
+   "docPath": "quickstart",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [
+    "Note: the sample hardcodes ports 8000/3000 with no override (moved for the harness)."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Quickstart - JS",
+     "clip": "AG2-react-01-Quickstart",
+     "loom": null
+    }
+   ]
+  },
+  {
+   "id": "prebuilt-components",
+   "label": "Prebuilt Components",
+   "kind": "guide",
+   "group": "Chat",
+   "child": false,
+   "docPath": "prebuilt-components",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": "Prebuilt Components - JS",
+     "clip": "AG2-react-02-PrebuiltComponents",
+     "loom": null
+    }
+   ]
+  },
+  {
+   "id": "copilot-chat",
+   "label": "- CopilotChat",
+   "kind": "guide",
+   "group": "Chat",
+   "child": true,
+   "docPath": "prebuilt-components/chat",
+   "reachable": "in-content",
+   "status": "✅",
+   "findings": [],
+   "notes": [
+    "Note: useAgenticChatSuggestions is never defined on the page."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "CopilotChat - JS",
+     "clip": "AG2-react-03-CopilotChat",
+     "loom": null
+    }
+   ]
+  },
+  {
+   "id": "slots",
+   "label": "Slots",
+   "kind": "guide",
+   "group": "Custom Look and Feel",
+   "child": false,
+   "docPath": "custom-look-and-feel/slots",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": "Slots - JS",
+     "clip": "AG2-react-04-Slots",
+     "loom": null
+    }
+   ]
+  },
+  {
+   "id": "markdown-rendering",
+   "label": "- Markdown Rendering",
+   "kind": "guide",
+   "group": "Custom Look and Feel",
+   "child": true,
+   "docPath": "custom-look-and-feel/markdown",
+   "reachable": "in-content",
+   "status": "✅",
+   "findings": [],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": "Markdown Rendering - JS",
+     "clip": "AG2-react-05-MarkdownRendering",
+     "loom": null
+    }
+   ]
+  },
+  {
+   "id": "headless-ui",
+   "label": "Fully headless UI",
+   "kind": "guide",
+   "group": "Custom Look and Feel",
+   "child": false,
+   "docPath": "custom-look-and-feel/headless-ui",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [
+    "Note: @copilotkit/shared has to be installed by hand, no install step for it."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Headless UI - JS",
+     "clip": "AG2-react-06-HeadlessUi",
+     "loom": null
+    }
+   ]
+  },
+  {
+   "id": "programmatic-control",
+   "label": "Programmatic control",
+   "kind": "guide",
+   "group": "Chat",
+   "child": false,
+   "docPath": "programmatic-control",
+   "reachable": "sidebar",
+   "status": "⚠️",
+   "findings": [
+    2
+   ],
+   "notes": [
+    "Issue: Hydration failure error on load; the run itself works."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Issue",
+     "clip": "AG2-react-07-ProgrammaticControl",
+     "loom": null,
+     "narration": {
+      "clip": "AG2-react-07-ProgrammaticControl",
+      "segments": [
+       {
+        "at": "doc",
+        "text": "Ok so, this is the programmatic control page in the CopilotKit docs, for AG2, and I have implemented this page."
+       },
+       {
+        "at": "ide",
+        "text": "This is the code from the doc."
+       },
+       {
+        "at": "demo",
+        "text": "Moving on to the demo. The run agent button works and the agent replied, but umm, the page throws a hydration failed error on load."
+       },
+       {
+        "at": "+",
+        "text": "So kindly look into it."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "threads-drawer",
+   "label": "Threads Drawer",
+   "kind": "guide",
+   "group": "Threads",
+   "child": false,
+   "docPath": "prebuilt-components/copilot-threads-drawer",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": "Threads Drawer - JS",
+     "clip": "AG2-react-08-ThreadsDrawer",
+     "loom": null
+    }
+   ]
+  },
+  {
+   "id": "headless-threads",
+   "label": "Headless Threads",
+   "kind": "guide",
+   "group": "Threads",
+   "child": false,
+   "docPath": "headless-threads",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    3
+   ],
+   "notes": [
+    "Issue: the thread list stays empty: the sidebar lists threads for agent \"my-agent\" but the CopilotChat has no agentId, so it runs on the default agent; ThreadSidebar never calls onSelectThread, so rows can't open a thread."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Issue",
+     "clip": "AG2-react-09-HeadlessThreads",
+     "loom": null,
+     "narration": {
+      "clip": "AG2-react-09-HeadlessThreads",
+      "segments": [
+       {
+        "at": "doc",
+        "text": "Ok so, this is the headless threads page in the CopilotKit docs, for AG2, and umm, I have implemented this page in my project."
+       },
+       {
+        "at": "ide",
+        "text": "This is my project, and this is the exact code from the doc, the thread sidebar and the app component."
+       },
+       {
+        "at": "demo",
+        "text": "Moving on to the demo. The chat itself works and the agent replied, but uh, the thread sidebar stayed completely empty, even after reloading the page."
+       },
+       {
+        "at": "evidence",
+        "text": "So here, the sidebar lists threads for the agent called my agent."
+       },
+       {
+        "at": "evidence#2",
+        "text": "But the chat has no agent id, so it runs on the default agent."
+       },
+       {
+        "at": "notepad",
+        "text": "Basically the two snippets use different agents, so the list never shows the conversation. And ahh, the sidebar never calls on select thread either, so a row couldn't open a thread anyway."
+       },
+       {
+        "at": "+",
+        "text": "So yeah, this is the issue, kindly fix it."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "frontend-tools",
+   "label": "Frontend Tools",
+   "kind": "guide",
+   "group": "Basics",
+   "child": false,
+   "docPath": "frontend-tools",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": "Frontend Tools - JS",
+     "clip": "AG2-react-10-FrontendTools",
+     "loom": null
+    }
+   ]
+  },
+  {
+   "id": "hitl",
+   "label": "HITL Overview",
+   "kind": "guide",
+   "group": "Human-in-the-loop",
+   "child": false,
+   "docPath": "human-in-the-loop/index",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [
+    "Note: the Code tab agent imports helper modules the page never shows."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "HITL - JS",
+     "clip": "AG2-react-11-Hitl",
+     "loom": null
+    }
+   ]
+  },
+  {
+   "id": "use-interrupt",
+   "label": "Pausing the agent for input",
+   "kind": "guide",
+   "group": "Human-in-the-loop",
+   "child": false,
+   "docPath": "human-in-the-loop/useInterrupt",
+   "reachable": "sidebar",
+   "status": "N/A",
+   "findings": [],
+   "notes": [
+    "Note: the page says \"Not available on this framework\"."
+   ],
+   "block": null,
+   "links": []
+  },
+  {
+   "id": "headless-hitl",
+   "label": "Headless Interrupts",
+   "kind": "guide",
+   "group": "Human-in-the-loop",
+   "child": false,
+   "docPath": "human-in-the-loop/headless",
+   "reachable": "sidebar",
+   "status": "N/A",
+   "findings": [],
+   "notes": [
+    "Note: the page says \"Not available on this framework\"."
+   ],
+   "block": null,
+   "links": []
+  },
+  {
+   "id": "governed-actions",
+   "label": "Governed Actions",
+   "kind": "guide",
+   "group": "Human-in-the-loop",
+   "child": false,
+   "docPath": "human-in-the-loop/governed-actions",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [
+    "Note: now working, the approval card appears."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Governed Actions - JS",
+     "clip": "AG2-react-12-GovernedActions",
+     "loom": null
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-tool-based",
+   "label": "Components as Tools",
+   "kind": "guide",
+   "group": "Controlled",
+   "child": false,
+   "docPath": "generative-ui/tool-based",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [
+    "Note: BarChart and barChartPropsSchema are not shown and SYSTEM_PROMPT is used before it is defined."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Components as Tools - JS",
+     "clip": "AG2-react-13-GenUiToolBased",
+     "loom": null
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-tool-rendering",
+   "label": "Tool Rendering",
+   "kind": "guide",
+   "group": "Controlled",
+   "child": false,
+   "docPath": "generative-ui/tool-rendering",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": "Tool Rendering - JS",
+     "clip": "AG2-react-14-GenUiToolRendering",
+     "loom": null
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-state-rendering",
+   "label": "State Rendering",
+   "kind": "guide",
+   "group": "Controlled",
+   "child": false,
+   "docPath": "generative-ui/state-rendering",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": "State Rendering - JS",
+     "clip": "AG2-react-15-GenUiStateRendering",
+     "loom": null
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-components",
+   "label": "Components and surfaces",
+   "kind": "guide",
+   "group": "Components and surfaces",
+   "child": false,
+   "docPath": "generative-ui/components",
+   "reachable": "sidebar",
+   "status": "⚠️",
+   "findings": [
+    4
+   ],
+   "notes": [
+    "Issue: the step 2 runtime never answers, console says chat() needs a threadId."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Issue",
+     "clip": "AG2-react-24-GenUiComponents",
+     "loom": null,
+     "narration": {
+      "clip": "AG2-react-24-GenUiComponents",
+      "segments": [
+       {
+        "at": "doc",
+        "text": "Ok so, this is the components and surfaces page in the CopilotKit docs, for AG2, and I have implemented this page."
+       },
+       {
+        "at": "ide",
+        "text": "This is the runtime and the provider code from the doc."
+       },
+       {
+        "at": "demo",
+        "text": "Moving on to the demo. Umm, I asked it to compare the plans in a table, and the chat never answered, the console says chat needs a thread ID."
+       },
+       {
+        "at": "+",
+        "text": "Alright, that's the issue, kindly sort it out."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-surfaces",
+   "label": "Surfaces",
+   "kind": "guide",
+   "group": "Components and surfaces",
+   "child": false,
+   "docPath": "generative-ui/components/surfaces",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    5
+   ],
+   "notes": [
+    "Issue: nothing renders in the featured row; the page never shows the catalog, ProductRow or the products."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Issue",
+     "clip": "AG2-react-25-GenUiSurfaces",
+     "loom": null,
+     "narration": {
+      "clip": "AG2-react-25-GenUiSurfaces",
+      "segments": [
+       {
+        "at": "doc",
+        "text": "Ok so, this is the surfaces page in the CopilotKit docs, for AG2, and I have implemented this page."
+       },
+       {
+        "at": "ide",
+        "text": "This is the code from the doc."
+       },
+       {
+        "at": "demo",
+        "text": "Moving on to the demo. I asked for cheap running shoes in the featured row, and uh, nothing rendered there, the agent just said it can't access the product catalog."
+       },
+       {
+        "at": "+",
+        "text": "So yeah, kindly check this and fix it."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-catalogs",
+   "label": "Catalogs",
+   "kind": "guide",
+   "group": "Components and surfaces",
+   "child": false,
+   "docPath": "generative-ui/components/catalogs",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": "Catalogs - JS",
+     "clip": "AG2-react-26-GenUiCatalogs",
+     "loom": null
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-standard-catalog",
+   "label": "Standard catalog",
+   "kind": "guide",
+   "group": "Components and surfaces",
+   "child": false,
+   "docPath": "generative-ui/components/standard-catalog",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [
+    "Note: now working."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Standard catalog - JS",
+     "clip": "AG2-react-27-GenUiStandardCatalog",
+     "loom": null
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-state-actions",
+   "label": "State and actions",
+   "kind": "guide",
+   "group": "Components and surfaces",
+   "child": false,
+   "docPath": "generative-ui/components/state-and-actions",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [
+    "Note: now working; the Cart type and store, z and createGenerativeUI imports are not shown."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "State and actions - JS",
+     "clip": "AG2-react-28-GenUiStateActions",
+     "loom": null
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-theming",
+   "label": "Theming",
+   "kind": "guide",
+   "group": "Components and surfaces",
+   "child": false,
+   "docPath": "generative-ui/components/theming",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": "Theming - JS",
+     "clip": "AG2-react-29-GenUiTheming",
+     "loom": null
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-transports",
+   "label": "Transports",
+   "kind": "guide",
+   "group": "Components and surfaces",
+   "child": false,
+   "docPath": "generative-ui/components/transports",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": "Transports - JS",
+     "clip": "AG2-react-30-GenUiTransports",
+     "loom": null
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-markdown-mode",
+   "label": "Markdown mode",
+   "kind": "guide",
+   "group": "Components and surfaces",
+   "child": false,
+   "docPath": "generative-ui/components/markdown-mode",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": "Markdown mode - JS",
+     "clip": "AG2-react-31-GenUiMarkdownMode",
+     "loom": null
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-from-a2ui",
+   "label": "Adopt from A2UI",
+   "kind": "guide",
+   "group": "Components and surfaces",
+   "child": false,
+   "docPath": "generative-ui/components/from-a2ui",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [
+    "Note: Airport and Arrow renderers are not shown on the page."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Adopt from A2UI - JS",
+     "clip": "AG2-react-32-GenUiFromA2ui",
+     "loom": null
+    }
+   ]
+  },
+  {
+   "id": "a2ui",
+   "label": "A2UI",
+   "kind": "guide",
+   "group": "A2UI",
+   "child": false,
+   "docPath": "generative-ui/a2ui",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": "A2UI - JS",
+     "clip": "AG2-react-16-A2UI",
+     "loom": null
+    }
+   ]
+  },
+  {
+   "id": "a2ui-dynamic-schema",
+   "label": "Dynamic Schema A2UI",
+   "kind": "guide",
+   "group": "A2UI",
+   "child": false,
+   "docPath": "generative-ui/a2ui/dynamic-schema",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    6
+   ],
+   "notes": [
+    "Issue: page imports ./chat, ../_components/badge and button, and ._loop_cap, which are never shown; with them filled in, the dashboard never renders (A2UI render error: Cannot read properties of undefined (reading 'map')). Also mentions LangGraph on the AG2 page."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Issue",
+     "clip": "AG2-react-17-A2UIDynamicSchema",
+     "loom": null,
+     "narration": {
+      "clip": "AG2-react-17-A2UIDynamicSchema",
+      "segments": [
+       {
+        "at": "doc",
+        "text": "Ok so, this is the dynamic schema A2UI page in the CopilotKit docs, for AG2, and umm, I have implemented this page in my project."
+       },
+       {
+        "at": "ide",
+        "text": "This is my project, this is the exact code from the doc, plus the chat and the badge and button files the page never shows."
+       },
+       {
+        "at": "demo",
+        "text": "Moving on to the demo. I asked for a sales KPI dashboard, the agent called the A2UI tool, but uh, instead of a dashboard the chat shows an A2UI render error, cannot read properties of undefined."
+       },
+       {
+        "at": "evidence",
+        "text": "So here the page imports a chat file that's never shown."
+       },
+       {
+        "at": "evidence#2",
+        "text": "And this part talks about LangGraph, on the AG2 page."
+       },
+       {
+        "at": "notepad",
+        "text": "Basically, the page leaves out files you need, and even after filling them in, no dashboard renders, it's the same render error on every run."
+       },
+       {
+        "at": "+",
+        "text": "That's the problem here, please have a look."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "a2ui-fixed-schema",
+   "label": "Fixed Schema A2UI",
+   "kind": "guide",
+   "group": "A2UI",
+   "child": false,
+   "docPath": "generative-ui/a2ui/fixed-schema",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    7
+   ],
+   "notes": [
+    "Issue: flight card shows up but airports, airline and price are empty; frontend files and the AG2 backend steps are missing from the page."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Issue",
+     "clip": "AG2-react-18-A2UIFixedSchema",
+     "loom": null,
+     "narration": {
+      "clip": "AG2-react-18-A2UIFixedSchema",
+      "segments": [
+       {
+        "at": "doc",
+        "text": "Ok so, this is the fixed schema A2UI page in the CopilotKit docs, for AG2, and I have implemented this page."
+       },
+       {
+        "at": "ide",
+        "text": "This is the code from the doc."
+       },
+       {
+        "at": "demo",
+        "text": "Moving on to the demo. I asked for a United flight from SFO to JFK, the flight card shows up, but uh, the airports, airline and price are all empty."
+       },
+       {
+        "at": "+",
+        "text": "So this needs a fix, kindly check it."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-json-render",
+   "label": "JSON Render",
+   "kind": "guide",
+   "group": "Declarative",
+   "child": false,
+   "docPath": "generative-ui/json-render",
+   "reachable": "sidebar",
+   "status": "N/A",
+   "findings": [],
+   "notes": [
+    "Note: the page says \"Not available for AG2 yet\"."
+   ],
+   "block": null,
+   "links": []
+  },
+  {
+   "id": "gen-ui-hashbrown",
+   "label": "Hashbrown",
+   "kind": "guide",
+   "group": "Declarative",
+   "child": false,
+   "docPath": "generative-ui/hashbrown",
+   "reachable": "sidebar",
+   "status": "N/A",
+   "findings": [],
+   "notes": [
+    "Note: the page says \"Not available for AG2 yet\"."
+   ],
+   "block": null,
+   "links": []
+  },
+  {
+   "id": "gen-ui-mcp-apps",
+   "label": "MCP Apps",
+   "kind": "guide",
+   "group": "Open-ended",
+   "child": false,
+   "docPath": "generative-ui/mcp-apps",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [
+    "Note: the page uses a TypeScript BuiltInAgent (no AG2) and leaves the MCP server to the reader."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "MCP Apps - JS",
+     "clip": "AG2-react-19-GenUiMcpApps",
+     "loom": null
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-open-gen-ui",
+   "label": "Open Generative UI",
+   "kind": "guide",
+   "group": "Open-ended",
+   "child": false,
+   "docPath": "generative-ui/open-generative-ui",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [
+    "Note: ./chat, ./design-skill and ._loop_cap are not shown."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Open Generative UI - JS",
+     "clip": "AG2-react-20-GenUiOpenGenUi",
+     "loom": null
+    }
+   ]
+  },
+  {
+   "id": "shared-state-read",
+   "label": "Reading agent state",
+   "kind": "guide",
+   "group": "Shared state",
+   "child": false,
+   "docPath": "shared-state/read",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": "Reading Agent State - JS",
+     "clip": "AG2-react-21-SharedStateRead",
+     "loom": null
+    }
+   ]
+  },
+  {
+   "id": "shared-state-write",
+   "label": "Writing agent state",
+   "kind": "guide",
+   "group": "Shared state",
+   "child": false,
+   "docPath": "shared-state/write",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    8
+   ],
+   "notes": [
+    "Issue: after toggling the language to spanish the agent still answers in English, and the UI can flip back to english; the UI-written state never reaches the agent."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Issue",
+     "clip": "AG2-react-22-SharedStateWrite",
+     "loom": null,
+     "narration": {
+      "clip": "AG2-react-22-SharedStateWrite",
+      "segments": [
+       {
+        "at": "doc",
+        "text": "Ok so, this is the writing agent state page in the CopilotKit docs, for AG2, and I have implemented this page."
+       },
+       {
+        "at": "ide",
+        "text": "This is my project, this is the exact code from the doc, the agent and the page with the toggle button."
+       },
+       {
+        "at": "demo",
+        "text": "Moving on to the demo. After toggling, the page showed the language as Spanish, but umm, when I asked the agent which language to use, it still said English."
+       },
+       {
+        "at": "evidence",
+        "text": "So this is the set state call the page tells you to use."
+       },
+       {
+        "at": "evidence#2",
+        "text": "And here it says the agent will match the state, which doesn't happen."
+       },
+       {
+        "at": "notepad",
+        "text": "Basically, the UI writes the language, but the agent never sees it. It answers in English every time, and on some runs the UI even flips back to English."
+       },
+       {
+        "at": "+",
+        "text": "So yeah, please take a look and fix this."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "webmcp",
+   "label": "WebMCP",
+   "kind": "guide",
+   "group": "Interactivity",
+   "child": false,
+   "docPath": "webmcp",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [
+    "Note: searchOrders() is never defined on the page."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "WebMCP - JS",
+     "clip": "AG2-react-33-WebMcp",
+     "loom": null
+    }
+   ]
+  },
+  {
+   "id": "auth",
+   "label": "Authentication",
+   "kind": "guide",
+   "group": "Agent capabilities",
+   "child": false,
+   "docPath": "auth",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    1
+   ],
+   "notes": [],
+   "block": {
+    "area": "Authentication",
+    "problem": "the authorization passed in properties is never forwarded to the AG2 /chat endpoint as a header, so every run gets 401 Unauthorized and the chat shows no reply"
+   },
+   "links": [
+    {
+     "text": "Not Working",
+     "clip": "AG2-react-34-Auth",
+     "loom": null,
+     "narration": {
+      "clip": "AG2-react-34-Auth",
+      "segments": [
+       {
+        "at": "doc",
+        "text": "Ok so, this is the authentication page in the CopilotKit docs, for AG2, and I have implemented this page in my project."
+       },
+       {
+        "at": "ide",
+        "text": "This is my project, and this is the exact code from the doc, the frontend setup and the self hosted chat endpoint."
+       },
+       {
+        "at": "demo",
+        "text": "Moving on to the demo. Umm, I sent a message asking for the account data, and the chat just stayed empty, no reply at all."
+       },
+       {
+        "at": "evidence",
+        "text": "So here the doc passes the token in properties, and says it gets forwarded to the chat endpoint as a request header."
+       },
+       {
+        "at": "notepad",
+        "text": "Basically, the header never reaches the backend. The backend log shows four oh one unauthorized on every run, so uh, following this page you can't get an authenticated run at all."
+       },
+       {
+        "at": "+",
+        "text": "So umm, this one needs fixing, please look into it."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "subagents",
+   "label": "Sub-agents",
+   "kind": "guide",
+   "group": "Agent capabilities",
+   "child": false,
+   "docPath": "multi-agent/subagents",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [
+    "Note: now working, the panel shows researcher and writer done."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Sub Agents - JS",
+     "clip": "AG2-react-23-Subagents",
+     "loom": null
+    }
+   ]
+  }
+ ]
+}

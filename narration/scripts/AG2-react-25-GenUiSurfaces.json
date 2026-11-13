@@ -1,0 +1,9 @@
+{
+  "clip": "AG2-react-25-GenUiSurfaces",
+  "segments": [
+    { "at": "doc", "text": "Ok so, this is the surfaces page in the CopilotKit docs, for AG2, and I have implemented this page." },
+    { "at": "ide", "text": "This is the code from the doc." },
+    { "at": "demo", "text": "Moving on to the demo. I asked for cheap running shoes in the featured row, and uh, nothing rendered there, the agent just said it can't access the product catalog." },
+    { "at": "+", "text": "So yeah, kindly check this and fix it." }
+  ]
+}

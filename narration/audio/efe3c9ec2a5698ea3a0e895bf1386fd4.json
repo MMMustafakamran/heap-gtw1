@@ -1,0 +1,9 @@
+{
+ "text": "Moving on to the demo. The run agent button works and the agent replied, but umm, the page throws a hydration failed error on load.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 9.706,
+ "file": "efe3c9ec2a5698ea3a0e895bf1386fd4.mp3",
+ "clip": "AG2-react-07-ProgrammaticControl",
+ "at": "demo"
+}

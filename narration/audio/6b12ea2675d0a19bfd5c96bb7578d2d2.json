@@ -1,0 +1,9 @@
+{
+ "text": "Moving on to the demo. The chat itself works and the agent replied, but uh, the thread sidebar stayed completely empty, even after reloading the page.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 11.238,
+ "file": "6b12ea2675d0a19bfd5c96bb7578d2d2.mp3",
+ "clip": "AG2-react-09-HeadlessThreads",
+ "at": "demo"
+}

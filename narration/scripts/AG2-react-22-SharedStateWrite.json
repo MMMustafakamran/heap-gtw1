@@ -1,0 +1,33 @@
+{
+ "clip": "AG2-react-22-SharedStateWrite",
+ "segments": [
+  {
+   "at": "doc",
+   "text": "Ok so, this is the writing agent state page in the CopilotKit docs, for AG2, and I have implemented this page."
+  },
+  {
+   "at": "ide",
+   "text": "This is my project, this is the exact code from the doc, the agent and the page with the toggle button."
+  },
+  {
+   "at": "demo",
+   "text": "Moving on to the demo. After toggling, the page showed the language as Spanish, but umm, when I asked the agent which language to use, it still said English."
+  },
+  {
+   "at": "evidence",
+   "text": "So this is the set state call the page tells you to use."
+  },
+  {
+   "at": "evidence#2",
+   "text": "And here it says the agent will match the state, which doesn't happen."
+  },
+  {
+   "at": "notepad",
+   "text": "Basically, the UI writes the language, but the agent never sees it. It answers in English every time, and on some runs the UI even flips back to English."
+  },
+  {
+   "at": "+",
+   "text": "So yeah, please take a look and fix this."
+  }
+ ]
+}

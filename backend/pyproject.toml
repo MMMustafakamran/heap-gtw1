@@ -1,0 +1,16 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "AG2 agents for the CopilotKit AG2 React docs QA harness (one module per doc page)."
+readme = "README.md"
+requires-python = ">=3.10,<3.15"
+dependencies = [
+    # the doc's install line: pip install "ag2[ag-ui,openai]>=1.1.2"
+    # A2UI page (generative-ui/a2ui) install line: pip install "ag2[a2ui,ag-ui,openai]>=1.1.2" uvicorn
+    "ag2[a2ui,ag-ui,openai]>=1.1.2",
+    "fastapi>=0.142.2",
+    "uvicorn>=0.54.0",
+]
+
+[tool.uv]
+package = false

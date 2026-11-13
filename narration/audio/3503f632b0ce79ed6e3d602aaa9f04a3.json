@@ -1,0 +1,9 @@
+{
+ "text": "Moving on to the demo. After toggling, the page showed the language as Spanish, but umm, when I asked the agent which language to use, it still said English.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 11.146,
+ "file": "3503f632b0ce79ed6e3d602aaa9f04a3.mp3",
+ "clip": "AG2-react-22-SharedStateWrite",
+ "at": "demo"
+}
