@@ -2,7 +2,7 @@
   "clip": "AG2-react-09-HeadlessThreads",
   "segments": [
     { "at": "doc", "text": "Ok so, this is the headless threads page in the CopilotKit docs, for AG2, and umm, I have implemented this page in my project." },
-    { "at": "ide", "text": "This is my project, and this is the exact code from the doc, the thread sidebar and the app component." },
+    { "at": "ide", "text": "This is my project, with the exact code from the doc." },
     { "at": "demo", "text": "Moving on to the demo. The chat itself works and the agent replied, but uh, the thread sidebar stayed completely empty, even after reloading the page." },
     { "at": "evidence", "text": "So here, the sidebar lists threads for the agent called my agent." },
     { "at": "evidence#2", "text": "But the chat has no agent id, so it runs on the default agent." },
