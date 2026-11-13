@@ -105,7 +105,9 @@ async function warmRuntimeEndpoint(page: Page): Promise<void> {
   const path = PROJECT.runtimeWarmPath;
   if (!path) return;
 
-  const url = new URL(path, PROJECT.frontendUrl).toString();
+  // Warm the endpoint on the page's own origin: a page served by its own dev server (the quickstart
+  // sample on 3061) would otherwise hit 3060 cross-origin and log a CORS error that fails the take.
+  const url = new URL(path, page.url().startsWith('http') ? page.url() : PROJECT.frontendUrl).toString();
   const took = await page
     .evaluate(async (target) => {
       const started = Date.now();
