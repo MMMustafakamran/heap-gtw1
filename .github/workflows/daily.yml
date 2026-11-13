@@ -330,11 +330,8 @@ jobs:
           set -eu
           [ -n "${OPENAI_API_KEY:-}" ] || echo "::warning::no OPENAI_API_KEY secret; the doc agents will fail"
           # The docs say `export OPENAI_API_KEY` (and AUTH_SECRET for the quickstart sample). HARNESS: .env files, --env-file.
-          printf 'OPENAI_API_KEY=%s
-' "$OPENAI_API_KEY" > backend/.env
-          printf 'OPENAI_API_KEY=%s
-AUTH_SECRET=harness-qa-long-random-string-0123456789
-' "$OPENAI_API_KEY" > quickstart/.env
+          printf 'OPENAI_API_KEY=%s\n' "$OPENAI_API_KEY" > backend/.env
+          printf 'OPENAI_API_KEY=%s\nAUTH_SECRET=harness-qa-long-random-string-0123456789\n' "$OPENAI_API_KEY" > quickstart/.env
           cp backend/.env frontend/.env.local
           # The quickstart runtime reads CPK_INTELLIGENCE_API_KEY from frontend/.env (doc).
           : > frontend/.env
