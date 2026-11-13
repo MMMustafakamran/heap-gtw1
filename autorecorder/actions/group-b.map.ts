@@ -68,7 +68,7 @@ export const MAP_B: Record<string, PageActionHandler> = {
   'a2ui': expectEffect('[data-generative-ui-surface], [data-a2ui-surface], .a2ui-surface, [class*="a2ui"]', 'A2UI surface in the chat'),
   'a2ui-dynamic-schema': expectEffect('[data-generative-ui-surface], [data-a2ui-surface], [data-testid="declarative-card"], [class*="a2ui"]', 'A2UI dashboard in the chat'),
   'a2ui-fixed-schema': expectEffect('[data-testid="a2ui-fixed-card"], [data-a2ui-surface], [class*="a2ui"]', 'flight card with SFO and JFK', { text: /SFO[\s\S]*JFK/ }),
-  'gen-ui-mcp-apps': expectEffect('iframe', 'MCP app iframe', { waitMs: 30000 }),
+  'gen-ui-mcp-apps': expectEffect('div', 'Budget Allocator MCP app', { text: /Budget Allocator/, waitMs: 60000 }),
   'gen-ui-open-gen-ui': expectEffect('iframe', 'generated UI iframe', { waitMs: 60000 }),
   'shared-state-read': expectEffect('p', 'Language: spanish from agent state', { text: /Language: spanish/ }),
   'shared-state-write': runSharedStateWriteAction,

@@ -347,7 +347,7 @@
        },
        {
         "at": "demo",
-        "text": "Moving on to the demo. The chat itself works and the agent replied, but uh, the thread sidebar stayed completely empty, even after reloading the page."
+        "text": "Moving on to the demo. The chat itself works and the agent replied, but uh, the thread list never showed this conversation."
        },
        {
         "at": "evidence",

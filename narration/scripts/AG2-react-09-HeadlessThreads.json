@@ -3,7 +3,7 @@
   "segments": [
     { "at": "doc", "text": "Ok so, this is the headless threads page in the CopilotKit docs, for AG2, and umm, I have implemented this page in my project." },
     { "at": "ide", "text": "This is my project, with the exact code from the doc." },
-    { "at": "demo", "text": "Moving on to the demo. The chat itself works and the agent replied, but uh, the thread sidebar stayed completely empty, even after reloading the page." },
+    { "at": "demo", "text": "Moving on to the demo. The chat itself works and the agent replied, but uh, the thread list never showed this conversation." },
     { "at": "evidence", "text": "So here, the sidebar lists threads for the agent called my agent." },
     { "at": "evidence#2", "text": "But the chat has no agent id, so it runs on the default agent." },
     { "at": "notepad", "text": "Basically the two snippets use different agents, so the list never shows the conversation. And ahh, the sidebar never calls on select thread either, so a row couldn't open a thread anyway." },
