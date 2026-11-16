@@ -1,0 +1,9 @@
+{
+ "text": "And here it says the agent will match the state, umm, which doesn't happen.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 5.991,
+ "file": "3b05e84b0a015c068d7431f990ccc081.mp3",
+ "clip": "AG2-react-22-SharedStateWrite",
+ "at": "evidence#2"
+}

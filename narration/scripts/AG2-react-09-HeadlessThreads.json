@@ -1,12 +1,41 @@
 {
-  "clip": "AG2-react-09-HeadlessThreads",
-  "segments": [
-    { "at": "doc", "text": "Ok so, this is the headless threads page in the CopilotKit docs, for AG2, and umm, I have implemented this page in my project." },
-    { "at": "ide", "text": "This is my project, with the exact code from the doc." },
-    { "at": "demo", "text": "Moving on to the demo. The chat itself works and the agent replied, but uh, the thread list never showed this conversation." },
-    { "at": "evidence", "text": "So here, the sidebar lists threads for the agent called my agent." },
-    { "at": "evidence#2", "text": "But the chat has no agent id, so it runs on the default agent." },
-    { "at": "notepad", "text": "Basically the two snippets use different agents, so the list never shows the conversation. And ahh, the sidebar never calls on select thread either, so a row couldn't open a thread anyway." },
-    { "at": "+", "text": "So yeah, this is the issue, kindly fix it." }
-  ]
+ "clip": "AG2-react-09-HeadlessThreads",
+ "segments": [
+  {
+   "at": "doc",
+   "text": "Ok so this is the headless threads page for AG2, and I'm reporting a problem on this page."
+  },
+  {
+   "at": "evidence",
+   "text": "So this is the problem, the sidebar lists threads for an agent called my agent."
+  },
+  {
+   "at": "evidence#2",
+   "text": "But the chat here has no agent ID, so umm, it runs on the default agent."
+  },
+  {
+   "at": "ide",
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "+",
+   "text": "This part, the on select thread prop on the sidebar, wasn't on the page, so I had to add it myself."
+  },
+  {
+   "at": "demo",
+   "text": "Moving on to the demo. It should list this conversation in the sidebar, but uh, the thread list stays empty, even after a reload."
+  },
+  {
+   "at": "notepad",
+   "text": "So basically, the page says the sidebar shows your threads, but it stayed empty, because the two snippets use different agents."
+  },
+  {
+   "at": "+",
+   "text": "And the sidebar never calls on select thread either, so a row couldn't open a thread anyway."
+  },
+  {
+   "at": "+",
+   "text": "So yeah, this is the issue, kindly fix it."
+  }
+ ]
 }

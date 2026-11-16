@@ -6,11 +6,10 @@ import { type DocEvidence } from './doc-evidence';
 
 export const NOTES_A: Record<string, string> = {
   'headless-threads': [
-    'thread sidebar snippet lists threads for agentId my-agent',
-    'but the App snippet renders CopilotChat with no agentId so the chat runs on the default agent',
-    'so after chatting the sidebar stays empty, even after a reload',
-    'and ThreadSidebar never calls onSelectThread so a row couldnt open a thread anyway',
-    'page never says which agent both should share so the list cant work as written',
+    "page says the thread sidebar lists ur conversations and u can switch between them",
+    "chatted a bit, sidebar stays empty,even after reload",
+    "sidebar uses useThreads with agentId my-agent but the chat has no agentId so it runs on the default agent",
+    "and ThreadSidebar never calls onSelectThread so a row cant open a thread anyway",
   ].join('\n'),
 };
 

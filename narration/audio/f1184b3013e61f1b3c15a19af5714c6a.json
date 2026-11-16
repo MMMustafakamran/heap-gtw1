@@ -1,0 +1,9 @@
+{
+ "text": "Moving on to the demo. The page itself loads, but umm, the runtime from step two never answers, the console says chat needs a thread ID.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 10.17,
+ "file": "f1184b3013e61f1b3c15a19af5714c6a.mp3",
+ "clip": "AG2-react-24-GenUiComponents",
+ "at": "demo"
+}

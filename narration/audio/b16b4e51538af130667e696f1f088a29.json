@@ -1,0 +1,9 @@
+{
+ "text": "Moving on to the demo. It should list this conversation in the sidebar, but uh, the thread list stays empty, even after a reload.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 9.799,
+ "file": "b16b4e51538af130667e696f1f088a29.mp3",
+ "clip": "AG2-react-09-HeadlessThreads",
+ "at": "demo"
+}

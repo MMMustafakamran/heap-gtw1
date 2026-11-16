@@ -1,0 +1,9 @@
+{
+ "text": "So basically, the page says the agent follows the language you set in the UI, but it answered in English every time, and sometimes the UI flipped back.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 10.031,
+ "file": "9b07793ef450ee9e5336c6982f345cad.mp3",
+ "clip": "AG2-react-22-SharedStateWrite",
+ "at": "notepad"
+}

@@ -3,27 +3,31 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the writing agent state page in the CopilotKit docs, for AG2, and I have implemented this page."
-  },
-  {
-   "at": "ide",
-   "text": "This is my project, this is the exact code from the doc, the agent and the page with the toggle button."
-  },
-  {
-   "at": "demo",
-   "text": "Moving on to the demo. After toggling, the page showed the language as Spanish, but umm, when I asked the agent which language to use, it still said English."
+   "text": "Ok so this is the writing agent state page for AG2, and I'm reporting a problem on this page."
   },
   {
    "at": "evidence",
-   "text": "So this is the set state call the page tells you to use."
+   "text": "So this is the problem, this is the set state call the page tells you to use."
   },
   {
    "at": "evidence#2",
-   "text": "And here it says the agent will match the state, which doesn't happen."
+   "text": "And here it says the agent will match the state, umm, which doesn't happen."
+  },
+  {
+   "at": "ide",
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "demo",
+   "text": "Moving on to the demo. After the toggle, the agent should answer in Spanish, but uh, it still says English."
   },
   {
    "at": "notepad",
-   "text": "Basically, the UI writes the language, but the agent never sees it. It answers in English every time, and on some runs the UI even flips back to English."
+   "text": "So basically, the page says the agent follows the language you set in the UI, but it answered in English every time, and sometimes the UI flipped back."
+  },
+  {
+   "at": "+",
+   "text": "The state the UI writes never reaches the agent, and the page doesn't show how it should."
   },
   {
    "at": "+",

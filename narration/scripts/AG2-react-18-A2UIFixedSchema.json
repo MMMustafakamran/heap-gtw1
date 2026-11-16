@@ -3,15 +3,15 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the fixed schema A2UI page in the CopilotKit docs, for AG2, and I have implemented this page."
+   "text": "Ok so this is the fixed schema A2UI page for AG2, and I'm reporting a problem on this page."
   },
   {
    "at": "ide",
-   "text": "This is the code from the doc."
+   "text": "This is my project, I've implemented the exact code from the doc."
   },
   {
    "at": "demo",
-   "text": "Moving on to the demo. I asked for a United flight from SFO to JFK, the flight card shows up, but uh, the airports, airline and price are all empty."
+   "text": "Moving on to the demo. It should show a filled flight card, but umm, the card shows up with the airports, airline and price all empty."
   },
   {
    "at": "+",

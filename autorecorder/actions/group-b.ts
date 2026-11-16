@@ -5,17 +5,18 @@
 import { type DocEvidence } from './doc-evidence';
 
 export const NOTES_B: Record<string, string> = {
-  'a2ui-dynamic-schema': `page shows page.tsx importing chat from ./chat and renderers using badge and button from _components
-none of those files are on the page so i had to make them up
-then asking for a sales kpi dashboard,the agent calls generate_a2ui
-but the card just says a2ui render error cannot read properties of undefined reading map
-no dashboard renders,every run
-page also talks about langgraph on the ag2 page`,
-  'shared-state-write': `page says toggle the language button and talk to the agent,it should match the state
-i clicked toggle,ui shows language spanish
-then asked the agent what language it should answer in
-it says english every time,and the ui flips back to english on some runs
-the agent never sees what the ui wrote,so writing state does nothing`,
+  'a2ui-dynamic-schema': [
+    "page says the agent generates the dashboard ui on the fly with a2ui",
+    "asked for a sales kpi dashboard,agent calls generate_a2ui but the card says a2ui render error cannot read properties of undefined reading map",
+    "same every run, no dashboard",
+    "page imports ./chat, badge, button and _loop_cap which are never shown, i had to make them up",
+    "and it talks about langgraph on the ag2 page",
+  ].join('\n'),
+  'shared-state-write': [
+    "page says toggle the language and the agent will match the state",
+    "toggled to spanish, ui shows spanish but agent still says english every time,sometimes the ui flips back",
+    "the setState write never reaches the agent and the page doesnt show how the ag2 agent reads it",
+  ].join('\n'),
 };
 
 export const EVIDENCE_B: Record<string, DocEvidence[]> = {

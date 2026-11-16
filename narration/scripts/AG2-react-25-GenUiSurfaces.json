@@ -1,9 +1,25 @@
 {
-  "clip": "AG2-react-25-GenUiSurfaces",
-  "segments": [
-    { "at": "doc", "text": "Ok so, this is the surfaces page in the CopilotKit docs, for AG2, and I have implemented this page." },
-    { "at": "ide", "text": "This is the code from the doc." },
-    { "at": "demo", "text": "Moving on to the demo. I asked for cheap running shoes in the featured row, and uh, nothing rendered there, the agent just said it can't access the product catalog." },
-    { "at": "+", "text": "So yeah, kindly check this and fix it." }
-  ]
+ "clip": "AG2-react-25-GenUiSurfaces",
+ "segments": [
+  {
+   "at": "doc",
+   "text": "Ok so this is the surfaces page for AG2, and I'm reporting a problem on this page."
+  },
+  {
+   "at": "ide",
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "+",
+   "text": "This part, the product and product row types, wasn't on the page, so I had to add it myself."
+  },
+  {
+   "at": "demo",
+   "text": "Moving on to the demo. It should show products in the featured row, but uh, nothing renders there, the agent says it can't access the catalog."
+  },
+  {
+   "at": "+",
+   "text": "So yeah, kindly check this and fix it."
+  }
+ ]
 }

@@ -5,12 +5,12 @@
 import { type DocEvidence } from './doc-evidence';
 
 export const NOTES_C: Record<string, string> = {
-  auth: `page says the authorization property gets forwarded to the ag2 chat endpoint as a request header
-so i put the token in properties on copilotkit like the frontend setup shows
-and used the self hosted chat code from the same page
-but the header never shows up, backend log is all 401 unauthorized
-the chat just stays empty, no reply on any run
-so following the page u cant get an authenticated run at all`,
+  auth: [
+    "page says the authorization property gets forwarded to the ag2 chat endpoint as a request header",
+    "put the token in properties like the frontend setup shows,chat stays empty no reply",
+    "backend log is all 401 unauthorized, the header never arrives",
+    "so the forwarding the page promises doesnt happen, also userToken is never defined on the page",
+  ].join('\n'),
   // Level 2 (KNOWN_C): the clip ends after the demo, no Notepad. Notes kept for the recorder log only.
   'gen-ui-components': `doc runtime route from step 2, chat never answers, chat needs a threadid error in console`,
   'gen-ui-surfaces': `surface never renders, agent says it cant access the product catalog`,

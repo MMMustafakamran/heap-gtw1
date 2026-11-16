@@ -1,11 +1,41 @@
 {
-  "clip": "AG2-react-34-Auth",
-  "segments": [
-    { "at": "doc", "text": "Ok so, this is the authentication page in the CopilotKit docs, for AG2, and I have implemented this page in my project." },
-    { "at": "ide", "text": "This is my project, and this is the exact code from the doc, the frontend setup and the self hosted chat endpoint." },
-    { "at": "demo", "text": "Moving on to the demo. Umm, I sent a message asking for the account data, and the chat just stayed empty, no reply at all." },
-    { "at": "evidence", "text": "So here the doc passes the token in properties, and says it gets forwarded to the chat endpoint as a request header." },
-    { "at": "notepad", "text": "Basically, the header never reaches the backend. The backend log shows four oh one unauthorized on every run, so uh, following this page you can't get an authenticated run at all." },
-    { "at": "+", "text": "So umm, this one needs fixing, please look into it." }
-  ]
+ "clip": "AG2-react-34-Auth",
+ "segments": [
+  {
+   "at": "doc",
+   "text": "Ok so this is the authentication page for AG2, and I'm reporting a problem on this page."
+  },
+  {
+   "at": "evidence",
+   "text": "So this is the problem, the token goes in properties here."
+  },
+  {
+   "at": "evidence#2",
+   "text": "And the page says it gets forwarded as a request header, umm, but it isn't."
+  },
+  {
+   "at": "ide",
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "+",
+   "text": "This part, the user token value, wasn't on the page, so I set it to the token the page's own backend accepts."
+  },
+  {
+   "at": "demo",
+   "text": "Moving on to the demo. I asked for the account data, it should answer, but uh, the chat just stays empty."
+  },
+  {
+   "at": "notepad",
+   "text": "So basically, the page says the token gets forwarded to the AG2 chat endpoint as a header, but the header never arrives."
+  },
+  {
+   "at": "+",
+   "text": "The backend log is four oh one unauthorized on every run, so you can't get an authenticated run at all."
+  },
+  {
+   "at": "+",
+   "text": "So umm, this one needs fixing, please look into it."
+  }
+ ]
 }

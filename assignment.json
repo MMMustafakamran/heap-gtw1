@@ -279,15 +279,15 @@
       "segments": [
        {
         "at": "doc",
-        "text": "Ok so, this is the programmatic control page in the CopilotKit docs, for AG2, and I have implemented this page."
+        "text": "Ok so this is the programmatic control page for AG2, and I'm reporting a small issue on this page."
        },
        {
         "at": "ide",
-        "text": "This is the code from the doc."
+        "text": "This is my project, I've implemented the exact code from the doc."
        },
        {
         "at": "demo",
-        "text": "Moving on to the demo. The run agent button works and the agent replied, but umm, the page throws a hydration failed error on load."
+        "text": "Moving on to the demo. The main part works, the agent ran and replied, but umm, the page throws a hydration failed error on load."
        },
        {
         "at": "+",
@@ -346,27 +346,35 @@
       "segments": [
        {
         "at": "doc",
-        "text": "Ok so, this is the headless threads page in the CopilotKit docs, for AG2, and umm, I have implemented this page in my project."
-       },
-       {
-        "at": "ide",
-        "text": "This is my project, with the exact code from the doc."
-       },
-       {
-        "at": "demo",
-        "text": "Moving on to the demo. The chat itself works and the agent replied, but uh, the thread list never showed this conversation."
+        "text": "Ok so this is the headless threads page for AG2, and I'm reporting a problem on this page."
        },
        {
         "at": "evidence",
-        "text": "So here, the sidebar lists threads for the agent called my agent."
+        "text": "So this is the problem, the sidebar lists threads for an agent called my agent."
        },
        {
         "at": "evidence#2",
-        "text": "But the chat has no agent id, so it runs on the default agent."
+        "text": "But the chat here has no agent ID, so umm, it runs on the default agent."
+       },
+       {
+        "at": "ide",
+        "text": "This is my project, I've implemented the exact code from the doc."
+       },
+       {
+        "at": "+",
+        "text": "This part, the on select thread prop on the sidebar, wasn't on the page, so I had to add it myself."
+       },
+       {
+        "at": "demo",
+        "text": "Moving on to the demo. It should list this conversation in the sidebar, but uh, the thread list stays empty, even after a reload."
        },
        {
         "at": "notepad",
-        "text": "Basically the two snippets use different agents, so the list never shows the conversation. And ahh, the sidebar never calls on select thread either, so a row couldn't open a thread anyway."
+        "text": "So basically, the page says the sidebar shows your threads, but it stayed empty, because the two snippets use different agents."
+       },
+       {
+        "at": "+",
+        "text": "And the sidebar never calls on select thread either, so a row couldn't open a thread anyway."
        },
        {
         "at": "+",
@@ -568,15 +576,15 @@
       "segments": [
        {
         "at": "doc",
-        "text": "Ok so, this is the components and surfaces page in the CopilotKit docs, for AG2, and I have implemented this page."
+        "text": "Ok so this is the components and surfaces page for AG2, and I'm reporting a small issue on this page."
        },
        {
         "at": "ide",
-        "text": "This is the runtime and the provider code from the doc."
+        "text": "This is my project, I've implemented the exact code from the doc."
        },
        {
         "at": "demo",
-        "text": "Moving on to the demo. Umm, I asked it to compare the plans in a table, and the chat never answered, the console says chat needs a thread ID."
+        "text": "Moving on to the demo. The page itself loads, but umm, the runtime from step two never answers, the console says chat needs a thread ID."
        },
        {
         "at": "+",
@@ -614,15 +622,19 @@
       "segments": [
        {
         "at": "doc",
-        "text": "Ok so, this is the surfaces page in the CopilotKit docs, for AG2, and I have implemented this page."
+        "text": "Ok so this is the surfaces page for AG2, and I'm reporting a problem on this page."
        },
        {
         "at": "ide",
-        "text": "This is the code from the doc."
+        "text": "This is my project, I've implemented the exact code from the doc."
+       },
+       {
+        "at": "+",
+        "text": "This part, the product and product row types, wasn't on the page, so I had to add it myself."
        },
        {
         "at": "demo",
-        "text": "Moving on to the demo. I asked for cheap running shoes in the featured row, and uh, nothing rendered there, the agent just said it can't access the product catalog."
+        "text": "Moving on to the demo. It should show products in the featured row, but uh, nothing renders there, the agent says it can't access the catalog."
        },
        {
         "at": "+",
@@ -834,27 +846,35 @@
       "segments": [
        {
         "at": "doc",
-        "text": "Ok so, this is the dynamic schema A2UI page in the CopilotKit docs, for AG2, and umm, I have implemented this page in my project."
-       },
-       {
-        "at": "ide",
-        "text": "This is my project, this is the exact code from the doc, plus the chat and the badge and button files the page never shows."
-       },
-       {
-        "at": "demo",
-        "text": "Moving on to the demo. I asked for a sales KPI dashboard, the agent called the A2UI tool, but uh, instead of a dashboard the chat shows an A2UI render error, cannot read properties of undefined."
+        "text": "Ok so this is the dynamic schema A2UI page for AG2, and I'm reporting a problem on this page."
        },
        {
         "at": "evidence",
-        "text": "So here the page imports a chat file that's never shown."
+        "text": "So this is the problem, umm, the page imports a chat file that's never shown."
        },
        {
         "at": "evidence#2",
         "text": "And this part talks about LangGraph, on the AG2 page."
        },
        {
+        "at": "ide",
+        "text": "This is my project, I've implemented the exact code from the doc."
+       },
+       {
+        "at": "+",
+        "text": "These parts, the chat, badge, button and loop cap files, weren't on the page, so I had to add them myself."
+       },
+       {
+        "at": "demo",
+        "text": "Moving on to the demo. I asked for a sales KPI dashboard, it should render one, but uh, the chat just shows an A2UI render error."
+       },
+       {
         "at": "notepad",
-        "text": "Basically, the page leaves out files you need, and even after filling them in, no dashboard renders, it's the same render error on every run."
+        "text": "So basically, the page says the agent builds the dashboard for you, but it fails with a render error on every run."
+       },
+       {
+        "at": "+",
+        "text": "The page leaves out the chat, badge and button files and the loop cap module, and even with those filled in, no dashboard renders."
        },
        {
         "at": "+",
@@ -892,15 +912,15 @@
       "segments": [
        {
         "at": "doc",
-        "text": "Ok so, this is the fixed schema A2UI page in the CopilotKit docs, for AG2, and I have implemented this page."
+        "text": "Ok so this is the fixed schema A2UI page for AG2, and I'm reporting a problem on this page."
        },
        {
         "at": "ide",
-        "text": "This is the code from the doc."
+        "text": "This is my project, I've implemented the exact code from the doc."
        },
        {
         "at": "demo",
-        "text": "Moving on to the demo. I asked for a United flight from SFO to JFK, the flight card shows up, but uh, the airports, airline and price are all empty."
+        "text": "Moving on to the demo. It should show a filled flight card, but umm, the card shows up with the airports, airline and price all empty."
        },
        {
         "at": "+",
@@ -1036,27 +1056,31 @@
       "segments": [
        {
         "at": "doc",
-        "text": "Ok so, this is the writing agent state page in the CopilotKit docs, for AG2, and I have implemented this page."
-       },
-       {
-        "at": "ide",
-        "text": "This is my project, this is the exact code from the doc, the agent and the page with the toggle button."
-       },
-       {
-        "at": "demo",
-        "text": "Moving on to the demo. After toggling, the page showed the language as Spanish, but umm, when I asked the agent which language to use, it still said English."
+        "text": "Ok so this is the writing agent state page for AG2, and I'm reporting a problem on this page."
        },
        {
         "at": "evidence",
-        "text": "So this is the set state call the page tells you to use."
+        "text": "So this is the problem, this is the set state call the page tells you to use."
        },
        {
         "at": "evidence#2",
-        "text": "And here it says the agent will match the state, which doesn't happen."
+        "text": "And here it says the agent will match the state, umm, which doesn't happen."
+       },
+       {
+        "at": "ide",
+        "text": "This is my project, I've implemented the exact code from the doc."
+       },
+       {
+        "at": "demo",
+        "text": "Moving on to the demo. After the toggle, the agent should answer in Spanish, but uh, it still says English."
        },
        {
         "at": "notepad",
-        "text": "Basically, the UI writes the language, but the agent never sees it. It answers in English every time, and on some runs the UI even flips back to English."
+        "text": "So basically, the page says the agent follows the language you set in the UI, but it answered in English every time, and sometimes the UI flipped back."
+       },
+       {
+        "at": "+",
+        "text": "The state the UI writes never reaches the agent, and the page doesn't show how it should."
        },
        {
         "at": "+",
@@ -1117,23 +1141,35 @@
       "segments": [
        {
         "at": "doc",
-        "text": "Ok so, this is the authentication page in the CopilotKit docs, for AG2, and I have implemented this page in my project."
-       },
-       {
-        "at": "ide",
-        "text": "This is my project, and this is the exact code from the doc, the frontend setup and the self hosted chat endpoint."
-       },
-       {
-        "at": "demo",
-        "text": "Moving on to the demo. Umm, I sent a message asking for the account data, and the chat just stayed empty, no reply at all."
+        "text": "Ok so this is the authentication page for AG2, and I'm reporting a problem on this page."
        },
        {
         "at": "evidence",
-        "text": "So here the doc passes the token in properties, and says it gets forwarded to the chat endpoint as a request header."
+        "text": "So this is the problem, the token goes in properties here."
+       },
+       {
+        "at": "evidence#2",
+        "text": "And the page says it gets forwarded as a request header, umm, but it isn't."
+       },
+       {
+        "at": "ide",
+        "text": "This is my project, I've implemented the exact code from the doc."
+       },
+       {
+        "at": "+",
+        "text": "This part, the user token value, wasn't on the page, so I set it to the token the page's own backend accepts."
+       },
+       {
+        "at": "demo",
+        "text": "Moving on to the demo. I asked for the account data, it should answer, but uh, the chat just stays empty."
        },
        {
         "at": "notepad",
-        "text": "Basically, the header never reaches the backend. The backend log shows four oh one unauthorized on every run, so uh, following this page you can't get an authenticated run at all."
+        "text": "So basically, the page says the token gets forwarded to the AG2 chat endpoint as a header, but the header never arrives."
+       },
+       {
+        "at": "+",
+        "text": "The backend log is four oh one unauthorized on every run, so you can't get an authenticated run at all."
        },
        {
         "at": "+",

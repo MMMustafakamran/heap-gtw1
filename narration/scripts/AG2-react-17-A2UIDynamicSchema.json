@@ -3,27 +3,35 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the dynamic schema A2UI page in the CopilotKit docs, for AG2, and umm, I have implemented this page in my project."
-  },
-  {
-   "at": "ide",
-   "text": "This is my project, this is the exact code from the doc, plus the chat and the badge and button files the page never shows."
-  },
-  {
-   "at": "demo",
-   "text": "Moving on to the demo. I asked for a sales KPI dashboard, the agent called the A2UI tool, but uh, instead of a dashboard the chat shows an A2UI render error, cannot read properties of undefined."
+   "text": "Ok so this is the dynamic schema A2UI page for AG2, and I'm reporting a problem on this page."
   },
   {
    "at": "evidence",
-   "text": "So here the page imports a chat file that's never shown."
+   "text": "So this is the problem, umm, the page imports a chat file that's never shown."
   },
   {
    "at": "evidence#2",
    "text": "And this part talks about LangGraph, on the AG2 page."
   },
   {
+   "at": "ide",
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "+",
+   "text": "These parts, the chat, badge, button and loop cap files, weren't on the page, so I had to add them myself."
+  },
+  {
+   "at": "demo",
+   "text": "Moving on to the demo. I asked for a sales KPI dashboard, it should render one, but uh, the chat just shows an A2UI render error."
+  },
+  {
    "at": "notepad",
-   "text": "Basically, the page leaves out files you need, and even after filling them in, no dashboard renders, it's the same render error on every run."
+   "text": "So basically, the page says the agent builds the dashboard for you, but it fails with a render error on every run."
+  },
+  {
+   "at": "+",
+   "text": "The page leaves out the chat, badge and button files and the loop cap module, and even with those filled in, no dashboard renders."
   },
   {
    "at": "+",
