@@ -674,7 +674,11 @@ export const runSurfaceFirstWithFinding: PageActionHandler = async (page, config
       if ((await surface.count()) > 0 || (await errorCard.isVisible().catch(() => false))) break;
       await sleep(1000);
     }
-    await settle(page, msgCount, ctx);
+    // A card-only reply never produces assistant text: settle() would sit out its whole text wait on
+    // a card that is already on screen (frozen tails, review 2026-11-16 round 2). Card or error card
+    // seen: give it a few seconds to fill in. Nothing seen: settle as before (text reply / silence).
+    if ((await surface.count()) > 0 || (await errorCard.isVisible().catch(() => false))) await sleep(6000);
+    else await settle(page, msgCount, ctx);
     await sleep(2500);
     const rendered = (await surface.count()) > 0;
     const broken = await errorCard.isVisible().catch(() => false);

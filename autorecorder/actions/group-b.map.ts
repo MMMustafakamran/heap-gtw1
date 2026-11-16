@@ -94,7 +94,7 @@ export const MAP_B: Record<string, PageActionHandler> = {
   'gen-ui-state-rendering': expectEffect('div.flex-row', 'searches from agent state', { text: /✅/ }),
   'a2ui': expectEffect('[data-generative-ui-surface], [data-a2ui-surface], .a2ui-surface, [class*="a2ui"]', 'A2UI surface in the chat'),
   'a2ui-dynamic-schema': expectEffect('[data-generative-ui-surface], [data-a2ui-surface], [data-testid="declarative-card"], [class*="a2ui"]', 'A2UI dashboard in the chat'),
-  'a2ui-fixed-schema': expectEffect('[data-testid="a2ui-fixed-card"], [data-a2ui-surface], [class*="a2ui"]', 'flight card with SFO and JFK', { text: /SFO[\s\S]*JFK/ }),
+  'a2ui-fixed-schema': expectEffect('[data-testid="a2ui-fixed-card"], [data-a2ui-surface], [class*="a2ui"]', 'flight card with SFO and JFK', { text: /SFO[\s\S]*JFK/, waitMs: 30000 /* review 11-16: the card renders empty (#7); 90 s only froze the clip */ }),
   'gen-ui-mcp-apps': runMcpAppsAction,
   'gen-ui-open-gen-ui': expectEffect('iframe', 'generated UI iframe', { waitMs: 60000 }),
   'shared-state-read': expectEffect('p', 'Language: spanish from agent state', { text: /Language: spanish/ }),
