@@ -1,0 +1,711 @@
+{
+  "checkedAt": "2026-11-16T08:00:24.813Z",
+  "root": "ag2",
+  "state": "drift",
+  "unknown": [],
+  "pages": [
+    {
+      "docPath": "auth",
+      "url": "https://docs.copilotkit.ai/ag2/auth",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "custom-look-and-feel/headless-ui",
+      "url": "https://docs.copilotkit.ai/ag2/custom-look-and-feel/headless-ui",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "custom-look-and-feel/markdown",
+      "url": "https://docs.copilotkit.ai/ag2/custom-look-and-feel/markdown",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "custom-look-and-feel/slots",
+      "url": "https://docs.copilotkit.ai/ag2/custom-look-and-feel/slots",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "frontend-tools",
+      "url": "https://docs.copilotkit.ai/ag2/frontend-tools",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/a2ui",
+      "url": "https://docs.copilotkit.ai/ag2/generative-ui/a2ui",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/a2ui/dynamic-schema",
+      "url": "https://docs.copilotkit.ai/ag2/generative-ui/a2ui/dynamic-schema",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/a2ui/fixed-schema",
+      "url": "https://docs.copilotkit.ai/ag2/generative-ui/a2ui/fixed-schema",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/components",
+      "url": "https://docs.copilotkit.ai/ag2/generative-ui/components",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/components/catalogs",
+      "url": "https://docs.copilotkit.ai/ag2/generative-ui/components/catalogs",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/components/from-a2ui",
+      "url": "https://docs.copilotkit.ai/ag2/generative-ui/components/from-a2ui",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/components/markdown-mode",
+      "url": "https://docs.copilotkit.ai/ag2/generative-ui/components/markdown-mode",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/components/standard-catalog",
+      "url": "https://docs.copilotkit.ai/ag2/generative-ui/components/standard-catalog",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/components/state-and-actions",
+      "url": "https://docs.copilotkit.ai/ag2/generative-ui/components/state-and-actions",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/components/surfaces",
+      "url": "https://docs.copilotkit.ai/ag2/generative-ui/components/surfaces",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/components/theming",
+      "url": "https://docs.copilotkit.ai/ag2/generative-ui/components/theming",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/components/transports",
+      "url": "https://docs.copilotkit.ai/ag2/generative-ui/components/transports",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/hashbrown",
+      "url": "https://docs.copilotkit.ai/ag2/generative-ui/hashbrown",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/json-render",
+      "url": "https://docs.copilotkit.ai/ag2/generative-ui/json-render",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/mcp-apps",
+      "url": "https://docs.copilotkit.ai/ag2/generative-ui/mcp-apps",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/open-generative-ui",
+      "url": "https://docs.copilotkit.ai/ag2/generative-ui/open-generative-ui",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/state-rendering",
+      "url": "https://docs.copilotkit.ai/ag2/generative-ui/state-rendering",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/tool-based",
+      "url": "https://docs.copilotkit.ai/ag2/generative-ui/tool-based",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "generative-ui/tool-rendering",
+      "url": "https://docs.copilotkit.ai/ag2/generative-ui/tool-rendering",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "headless-threads",
+      "url": "https://docs.copilotkit.ai/ag2/headless-threads",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "human-in-the-loop/governed-actions",
+      "url": "https://docs.copilotkit.ai/ag2/human-in-the-loop/governed-actions",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "human-in-the-loop/headless",
+      "url": "https://docs.copilotkit.ai/ag2/human-in-the-loop/headless",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "human-in-the-loop/index",
+      "url": "https://docs.copilotkit.ai/ag2/human-in-the-loop/index",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot",
+      "redirectsTo": "/ag2/human-in-the-loop"
+    },
+    {
+      "docPath": "human-in-the-loop/useInterrupt",
+      "url": "https://docs.copilotkit.ai/ag2/human-in-the-loop/useInterrupt",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "multi-agent/subagents",
+      "url": "https://docs.copilotkit.ai/ag2/multi-agent/subagents",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "prebuilt-components",
+      "url": "https://docs.copilotkit.ai/ag2/prebuilt-components",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "prebuilt-components/chat",
+      "url": "https://docs.copilotkit.ai/ag2/prebuilt-components/chat",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "prebuilt-components/copilot-threads-drawer",
+      "url": "https://docs.copilotkit.ai/ag2/prebuilt-components/copilot-threads-drawer",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "programmatic-control",
+      "url": "https://docs.copilotkit.ai/ag2/programmatic-control",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "quickstart",
+      "url": "https://docs.copilotkit.ai/ag2/quickstart",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "shared-state/read",
+      "url": "https://docs.copilotkit.ai/ag2/shared-state/read",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "shared-state/write",
+      "url": "https://docs.copilotkit.ai/ag2/shared-state/write",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    },
+    {
+      "docPath": "webmcp",
+      "url": "https://docs.copilotkit.ai/ag2/webmcp",
+      "tracked": true,
+      "active": true,
+      "state": "no-snapshot"
+    }
+  ],
+  "sidebar": {
+    "added": [
+      {
+        "url": "/ag2",
+        "name": "Introduction",
+        "group": ""
+      },
+      {
+        "url": "/ag2/quickstart",
+        "name": "Quickstart",
+        "group": ""
+      },
+      {
+        "url": "/ag2/build-with-agents",
+        "name": "Build with agents",
+        "group": ""
+      },
+      {
+        "url": "/ag2/prebuilt-components",
+        "name": "Prebuilt Components",
+        "group": "Basics > Chat"
+      },
+      {
+        "url": "/ag2/custom-look-and-feel/headless-ui",
+        "name": "Headless UI",
+        "group": "Basics > Chat > Custom look and feel"
+      },
+      {
+        "url": "/ag2/custom-look-and-feel/slots",
+        "name": "Slots",
+        "group": "Basics > Chat > Custom look and feel"
+      },
+      {
+        "url": "/ag2/programmatic-control",
+        "name": "Programmatic Control",
+        "group": "Basics > Chat"
+      },
+      {
+        "url": "/ag2/prebuilt-components/copilot-threads-drawer",
+        "name": "Threads Drawer",
+        "group": "Basics > Threads"
+      },
+      {
+        "url": "/ag2/headless-threads",
+        "name": "Headless Threads",
+        "group": "Basics > Threads"
+      },
+      {
+        "url": "/ag2/frontend-tools",
+        "name": "Frontend-tools",
+        "group": "Basics"
+      },
+      {
+        "url": "/ag2/generative-ui/tool-based",
+        "name": "Components as Tools",
+        "group": "Generative UI > Controlled"
+      },
+      {
+        "url": "/ag2/generative-ui/tool-rendering",
+        "name": "Tool Call Rendering",
+        "group": "Generative UI > Controlled"
+      },
+      {
+        "url": "/ag2/generative-ui/state-rendering",
+        "name": "State Rendering",
+        "group": "Generative UI > Controlled"
+      },
+      {
+        "url": "/ag2/generative-ui/components",
+        "name": "Components and surfaces",
+        "group": "Generative UI > Declarative > Components and surfaces"
+      },
+      {
+        "url": "/ag2/generative-ui/components/surfaces",
+        "name": "Surfaces",
+        "group": "Generative UI > Declarative > Components and surfaces"
+      },
+      {
+        "url": "/ag2/generative-ui/components/catalogs",
+        "name": "Catalogs",
+        "group": "Generative UI > Declarative > Components and surfaces"
+      },
+      {
+        "url": "/ag2/generative-ui/components/standard-catalog",
+        "name": "Standard catalog",
+        "group": "Generative UI > Declarative > Components and surfaces"
+      },
+      {
+        "url": "/ag2/generative-ui/components/state-and-actions",
+        "name": "State and actions",
+        "group": "Generative UI > Declarative > Components and surfaces"
+      },
+      {
+        "url": "/ag2/generative-ui/components/theming",
+        "name": "Theming",
+        "group": "Generative UI > Declarative > Components and surfaces"
+      },
+      {
+        "url": "/ag2/generative-ui/components/transports",
+        "name": "Transports",
+        "group": "Generative UI > Declarative > Components and surfaces"
+      },
+      {
+        "url": "/ag2/generative-ui/components/markdown-mode",
+        "name": "Markdown mode",
+        "group": "Generative UI > Declarative > Components and surfaces"
+      },
+      {
+        "url": "/ag2/generative-ui/components/from-a2ui",
+        "name": "Adopt from A2UI",
+        "group": "Generative UI > Declarative > Components and surfaces"
+      },
+      {
+        "url": "/ag2/generative-ui/a2ui",
+        "name": "A2UI",
+        "group": "Generative UI > Declarative > A2UI"
+      },
+      {
+        "url": "/ag2/generative-ui/a2ui/dynamic-schema",
+        "name": "Dynamic Schema A2UI",
+        "group": "Generative UI > Declarative > A2UI"
+      },
+      {
+        "url": "/ag2/generative-ui/a2ui/fixed-schema",
+        "name": "Fixed Schema A2UI",
+        "group": "Generative UI > Declarative > A2UI"
+      },
+      {
+        "url": "/ag2/generative-ui/json-render",
+        "name": "JSON Render",
+        "group": "Generative UI > Declarative"
+      },
+      {
+        "url": "/ag2/generative-ui/hashbrown",
+        "name": "Hashbrown",
+        "group": "Generative UI > Declarative"
+      },
+      {
+        "url": "/ag2/generative-ui/mcp-apps",
+        "name": "MCP Apps",
+        "group": "Generative UI > Open-ended"
+      },
+      {
+        "url": "/ag2/generative-ui/open-generative-ui",
+        "name": "Open Generative UI",
+        "group": "Generative UI > Open-ended"
+      },
+      {
+        "url": "/ag2/shared-state/read",
+        "name": "Reading agent state",
+        "group": "Interactivity > Shared state"
+      },
+      {
+        "url": "/ag2/shared-state/write",
+        "name": "Writing agent state",
+        "group": "Interactivity > Shared state"
+      },
+      {
+        "url": "/ag2/human-in-the-loop",
+        "name": "HITL Overview",
+        "group": "Interactivity > Human-in-the-loop"
+      },
+      {
+        "url": "/ag2/human-in-the-loop/useInterrupt",
+        "name": "Pausing the Agent for Input",
+        "group": "Interactivity > Human-in-the-loop"
+      },
+      {
+        "url": "/ag2/human-in-the-loop/headless",
+        "name": "Headless Interrupts",
+        "group": "Interactivity > Human-in-the-loop"
+      },
+      {
+        "url": "/ag2/human-in-the-loop/governed-actions",
+        "name": "Governed Action Approval UI",
+        "group": "Interactivity > Human-in-the-loop"
+      },
+      {
+        "url": "/ag2/webmcp",
+        "name": "WebMCP",
+        "group": "Interactivity"
+      },
+      {
+        "url": "/ag2/auth",
+        "name": "Authentication",
+        "group": "Agent capabilities > AG2"
+      },
+      {
+        "url": "/ag2/multi-agent/subagents",
+        "name": "Sub-agents",
+        "group": "Agent capabilities"
+      },
+      {
+        "url": "/ag2/AG-UI-Streams",
+        "name": "Overview",
+        "group": "Intelligence > Features > AG-UI Streams"
+      },
+      {
+        "url": "/ag2/threads-import",
+        "name": "Add to Existing Threads",
+        "group": "Intelligence > Features > AG-UI Streams"
+      },
+      {
+        "url": "/ag2/threads-lifecycle",
+        "name": "Thread & History Lifecycle",
+        "group": "Intelligence > Features > AG-UI Streams"
+      },
+      {
+        "url": "/ag2/learning",
+        "name": "Automatic Learning",
+        "group": "Intelligence > Features > Automatic Learning"
+      },
+      {
+        "url": "/ag2/copilot-runtime",
+        "name": "Copilot Runtime",
+        "group": "Backend > Runtime"
+      },
+      {
+        "url": "/ag2/ag-ui",
+        "name": "AG-UI",
+        "group": "Backend > Runtime"
+      },
+      {
+        "url": "/ag2/inspector",
+        "name": "Inspector",
+        "group": "Backend > Debugging"
+      },
+      {
+        "url": "/ag2/contributing/code-contributions/package-linking",
+        "name": "Advanced: Package Linking",
+        "group": "Other > Contributing > Code contributions"
+      },
+      {
+        "url": "/ag2/contributing/docs-contributions",
+        "name": "Documentation Contributions",
+        "group": "Other > Contributing"
+      },
+      {
+        "url": "/ag2/troubleshooting/common-issues",
+        "name": "Common Copilot Issues",
+        "group": "Other > Troubleshooting"
+      },
+      {
+        "url": "/ag2/troubleshooting/error-debugging",
+        "name": "Error Debugging & Observability",
+        "group": "Other > Troubleshooting"
+      },
+      {
+        "url": "/ag2/troubleshooting/migrate-to-1.10.X",
+        "name": "Migrate to 1.10.X",
+        "group": "Other > Troubleshooting"
+      },
+      {
+        "url": "/ag2/troubleshooting/migrate-to-1.8.2",
+        "name": "Migrate to 1.8.2",
+        "group": "Other > Troubleshooting"
+      },
+      {
+        "url": "/ag2/troubleshooting/migrate-to-v2",
+        "name": "Migrate to V2",
+        "group": "Other > Troubleshooting"
+      },
+      {
+        "url": "/ag2/telemetry",
+        "name": "Open-source telemetry",
+        "group": "Other"
+      },
+      {
+        "url": "/ag2/community-frameworks",
+        "name": "Community frameworks",
+        "group": "Other"
+      }
+    ],
+    "removed": [],
+    "renamed": []
+  },
+  "reach": [],
+  "newPages": [
+    {
+      "url": "https://docs.copilotkit.ai/ag2",
+      "docPath": "",
+      "how": "sidebar:  > Introduction"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/build-with-agents",
+      "docPath": "build-with-agents",
+      "how": "sidebar:  > Build with agents"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/human-in-the-loop",
+      "docPath": "human-in-the-loop",
+      "how": "sidebar: Interactivity > Human-in-the-loop > HITL Overview"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/AG-UI-Streams",
+      "docPath": "AG-UI-Streams",
+      "how": "sidebar: Intelligence > Features > AG-UI Streams > Overview"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/threads-import",
+      "docPath": "threads-import",
+      "how": "sidebar: Intelligence > Features > AG-UI Streams > Add to Existing Threads"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/threads-lifecycle",
+      "docPath": "threads-lifecycle",
+      "how": "sidebar: Intelligence > Features > AG-UI Streams > Thread & History Lifecycle"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/learning",
+      "docPath": "learning",
+      "how": "sidebar: Intelligence > Features > Automatic Learning > Automatic Learning"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/copilot-runtime",
+      "docPath": "copilot-runtime",
+      "how": "sidebar: Backend > Runtime > Copilot Runtime"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/ag-ui",
+      "docPath": "ag-ui",
+      "how": "sidebar: Backend > Runtime > AG-UI"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/inspector",
+      "docPath": "inspector",
+      "how": "sidebar: Backend > Debugging > Inspector"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/contributing/code-contributions/package-linking",
+      "docPath": "contributing/code-contributions/package-linking",
+      "how": "sidebar: Other > Contributing > Code contributions > Advanced: Package Linking"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/contributing/docs-contributions",
+      "docPath": "contributing/docs-contributions",
+      "how": "sidebar: Other > Contributing > Documentation Contributions"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/troubleshooting/common-issues",
+      "docPath": "troubleshooting/common-issues",
+      "how": "sidebar: Other > Troubleshooting > Common Copilot Issues"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/troubleshooting/error-debugging",
+      "docPath": "troubleshooting/error-debugging",
+      "how": "sidebar: Other > Troubleshooting > Error Debugging & Observability"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/troubleshooting/migrate-to-1.10.X",
+      "docPath": "troubleshooting/migrate-to-1.10.X",
+      "how": "sidebar: Other > Troubleshooting > Migrate to 1.10.X"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/troubleshooting/migrate-to-1.8.2",
+      "docPath": "troubleshooting/migrate-to-1.8.2",
+      "how": "sidebar: Other > Troubleshooting > Migrate to 1.8.2"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/troubleshooting/migrate-to-v2",
+      "docPath": "troubleshooting/migrate-to-v2",
+      "how": "sidebar: Other > Troubleshooting > Migrate to V2"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/telemetry",
+      "docPath": "telemetry",
+      "how": "sidebar: Other > Open-source telemetry"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/community-frameworks",
+      "docPath": "community-frameworks",
+      "how": "sidebar: Other > Community frameworks"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/shared-state",
+      "docPath": "shared-state",
+      "how": "linked from /ag2/quickstart"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/migrate/v2",
+      "docPath": "migrate/v2",
+      "how": "linked from /ag2/prebuilt-components/copilot-threads-drawer"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/agentic-protocols/ag-ui",
+      "docPath": "agentic-protocols/ag-ui",
+      "how": "linked from /ag2/generative-ui/a2ui"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/concepts/generative-ui-overview",
+      "docPath": "concepts/generative-ui-overview",
+      "how": "linked from /ag2/generative-ui/a2ui"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/runtime-server-adapter",
+      "docPath": "runtime-server-adapter",
+      "how": "linked from /ag2/generative-ui/a2ui"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/troubleshooting/error-reference",
+      "docPath": "troubleshooting/error-reference",
+      "how": "linked from /ag2/copilot-runtime"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/agent-config",
+      "docPath": "agent-config",
+      "how": "linked from /ag2/inspector"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/shared-state/agent-readonly",
+      "docPath": "shared-state/agent-readonly",
+      "how": "linked from /ag2/inspector"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/troubleshooting/debug-mode",
+      "docPath": "troubleshooting/debug-mode",
+      "how": "linked from /ag2/inspector"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/troubleshooting/event-inspector",
+      "docPath": "troubleshooting/event-inspector",
+      "how": "linked from /ag2/troubleshooting/error-debugging"
+    },
+    {
+      "url": "https://docs.copilotkit.ai/ag2/cli",
+      "docPath": "cli",
+      "how": "linked from /ag2/learning"
+    }
+  ],
+  "deadLinks": [
+    {
+      "url": "https://docs.copilotkit.ai/ag2/react-native",
+      "how": "linked from /ag2/generative-ui/components"
+    }
+  ],
+  "held": []
+}

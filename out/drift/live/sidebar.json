@@ -1,0 +1,375 @@
+{
+ "root": "ag2",
+ "pages": [
+  {
+   "url": "/ag2",
+   "name": "Introduction",
+   "group": ""
+  },
+  {
+   "url": "/ag2/quickstart",
+   "name": "Quickstart",
+   "group": ""
+  },
+  {
+   "url": "/ag2/build-with-agents",
+   "name": "Build with agents",
+   "group": ""
+  },
+  {
+   "url": "/ag2/intelligence/overview",
+   "name": "Intelligence",
+   "group": ""
+  },
+  {
+   "url": "/ag2/prebuilt-components",
+   "name": "Prebuilt Components",
+   "group": "Basics > Chat"
+  },
+  {
+   "url": "/ag2/custom-look-and-feel/headless-ui",
+   "name": "Headless UI",
+   "group": "Basics > Chat > Custom look and feel"
+  },
+  {
+   "url": "/ag2/custom-look-and-feel/slots",
+   "name": "Slots",
+   "group": "Basics > Chat > Custom look and feel"
+  },
+  {
+   "url": "/ag2/programmatic-control",
+   "name": "Programmatic Control",
+   "group": "Basics > Chat"
+  },
+  {
+   "url": "/ag2/prebuilt-components/copilot-threads-drawer",
+   "name": "Threads Drawer",
+   "group": "Basics > Threads"
+  },
+  {
+   "url": "/ag2/headless-threads",
+   "name": "Headless Threads",
+   "group": "Basics > Threads"
+  },
+  {
+   "url": "/ag2/frontend-tools",
+   "name": "Frontend-tools",
+   "group": "Basics"
+  },
+  {
+   "url": "/ag2/generative-ui/tool-based",
+   "name": "Components as Tools",
+   "group": "Generative UI > Controlled"
+  },
+  {
+   "url": "/ag2/generative-ui/tool-rendering",
+   "name": "Tool Call Rendering",
+   "group": "Generative UI > Controlled"
+  },
+  {
+   "url": "/ag2/generative-ui/state-rendering",
+   "name": "State Rendering",
+   "group": "Generative UI > Controlled"
+  },
+  {
+   "url": "/ag2/generative-ui/components",
+   "name": "Components and surfaces",
+   "group": "Generative UI > Declarative > Components and surfaces"
+  },
+  {
+   "url": "/ag2/generative-ui/components/surfaces",
+   "name": "Surfaces",
+   "group": "Generative UI > Declarative > Components and surfaces"
+  },
+  {
+   "url": "/ag2/generative-ui/components/catalogs",
+   "name": "Catalogs",
+   "group": "Generative UI > Declarative > Components and surfaces"
+  },
+  {
+   "url": "/ag2/generative-ui/components/standard-catalog",
+   "name": "Standard catalog",
+   "group": "Generative UI > Declarative > Components and surfaces"
+  },
+  {
+   "url": "/ag2/generative-ui/components/state-and-actions",
+   "name": "State and actions",
+   "group": "Generative UI > Declarative > Components and surfaces"
+  },
+  {
+   "url": "/ag2/generative-ui/components/theming",
+   "name": "Theming",
+   "group": "Generative UI > Declarative > Components and surfaces"
+  },
+  {
+   "url": "/ag2/generative-ui/components/transports",
+   "name": "Transports",
+   "group": "Generative UI > Declarative > Components and surfaces"
+  },
+  {
+   "url": "/ag2/generative-ui/components/markdown-mode",
+   "name": "Markdown mode",
+   "group": "Generative UI > Declarative > Components and surfaces"
+  },
+  {
+   "url": "/ag2/generative-ui/components/from-a2ui",
+   "name": "Adopt from A2UI",
+   "group": "Generative UI > Declarative > Components and surfaces"
+  },
+  {
+   "url": "/ag2/generative-ui/a2ui",
+   "name": "A2UI",
+   "group": "Generative UI > Declarative > A2UI"
+  },
+  {
+   "url": "/ag2/generative-ui/a2ui/dynamic-schema",
+   "name": "Dynamic Schema A2UI",
+   "group": "Generative UI > Declarative > A2UI"
+  },
+  {
+   "url": "/ag2/generative-ui/a2ui/fixed-schema",
+   "name": "Fixed Schema A2UI",
+   "group": "Generative UI > Declarative > A2UI"
+  },
+  {
+   "url": "/ag2/generative-ui/json-render",
+   "name": "JSON Render",
+   "group": "Generative UI > Declarative"
+  },
+  {
+   "url": "/ag2/generative-ui/hashbrown",
+   "name": "Hashbrown",
+   "group": "Generative UI > Declarative"
+  },
+  {
+   "url": "/ag2/generative-ui/mcp-apps",
+   "name": "MCP Apps",
+   "group": "Generative UI > Open-ended"
+  },
+  {
+   "url": "/ag2/generative-ui/open-generative-ui",
+   "name": "Open Generative UI",
+   "group": "Generative UI > Open-ended"
+  },
+  {
+   "url": "/ag2/shared-state/read",
+   "name": "Reading agent state",
+   "group": "Interactivity > Shared state"
+  },
+  {
+   "url": "/ag2/shared-state/write",
+   "name": "Writing agent state",
+   "group": "Interactivity > Shared state"
+  },
+  {
+   "url": "/ag2/human-in-the-loop",
+   "name": "HITL Overview",
+   "group": "Interactivity > Human-in-the-loop"
+  },
+  {
+   "url": "/ag2/human-in-the-loop/useInterrupt",
+   "name": "Pausing the Agent for Input",
+   "group": "Interactivity > Human-in-the-loop"
+  },
+  {
+   "url": "/ag2/human-in-the-loop/headless",
+   "name": "Headless Interrupts",
+   "group": "Interactivity > Human-in-the-loop"
+  },
+  {
+   "url": "/ag2/human-in-the-loop/governed-actions",
+   "name": "Governed Action Approval UI",
+   "group": "Interactivity > Human-in-the-loop"
+  },
+  {
+   "url": "/ag2/webmcp",
+   "name": "WebMCP",
+   "group": "Interactivity"
+  },
+  {
+   "url": "/ag2/auth",
+   "name": "Authentication",
+   "group": "Agent capabilities > AG2"
+  },
+  {
+   "url": "/ag2/multi-agent/subagents",
+   "name": "Sub-agents",
+   "group": "Agent capabilities"
+  },
+  {
+   "url": "/ag2/intelligence/quickstart",
+   "name": "Quickstart",
+   "group": "Intelligence > Get started"
+  },
+  {
+   "url": "/ag2/intelligence/intelligence-platform",
+   "name": "Architecture",
+   "group": "Intelligence > Get started"
+  },
+  {
+   "url": "/ag2/intelligence/plans",
+   "name": "Plans",
+   "group": "Intelligence > Get started"
+  },
+  {
+   "url": "/ag2/AG-UI-Streams",
+   "name": "Overview",
+   "group": "Intelligence > Features > AG-UI Streams"
+  },
+  {
+   "url": "/ag2/intelligence/bring-your-own-thread-system",
+   "name": "Bring your own thread system",
+   "group": "Intelligence > Features > AG-UI Streams"
+  },
+  {
+   "url": "/ag2/threads-import",
+   "name": "Add to Existing Threads",
+   "group": "Intelligence > Features > AG-UI Streams"
+  },
+  {
+   "url": "/ag2/threads-lifecycle",
+   "name": "Thread & History Lifecycle",
+   "group": "Intelligence > Features > AG-UI Streams"
+  },
+  {
+   "url": "/ag2/intelligence/threads-explained",
+   "name": "Streams & Framework Threads",
+   "group": "Intelligence > Features > AG-UI Streams"
+  },
+  {
+   "url": "/ag2/learning",
+   "name": "Automatic Learning",
+   "group": "Intelligence > Features > Automatic Learning"
+  },
+  {
+   "url": "/ag2/intelligence/learned-skills",
+   "name": "Skill delivery",
+   "group": "Intelligence > Features > Automatic Learning"
+  },
+  {
+   "url": "/ag2/intelligence/memories",
+   "name": "User Memories",
+   "group": "Intelligence > Features"
+  },
+  {
+   "url": "/ag2/intelligence/trajectories",
+   "name": "Trajectories",
+   "group": "Intelligence > Features > Trajectories"
+  },
+  {
+   "url": "/ag2/intelligence/trajectories-quickstart",
+   "name": "Quickstart",
+   "group": "Intelligence > Features > Trajectories"
+  },
+  {
+   "url": "/ag2/intelligence/capture-interactions",
+   "name": "Capture interactions",
+   "group": "Intelligence > Features > Trajectories"
+  },
+  {
+   "url": "/ag2/intelligence/captured-data",
+   "name": "Captured data",
+   "group": "Intelligence > Features > Trajectories"
+  },
+  {
+   "url": "/ag2/intelligence/trajectories-reference",
+   "name": "API reference",
+   "group": "Intelligence > Features > Trajectories"
+  },
+  {
+   "url": "/ag2/intelligence/standalone-collector",
+   "name": "Standalone collector",
+   "group": "Intelligence > Features"
+  },
+  {
+   "url": "/ag2/intelligence/analytics",
+   "name": "Product Analytics",
+   "group": "Intelligence > Features"
+  },
+  {
+   "url": "/ag2/intelligence/channels",
+   "name": "Channels",
+   "group": "Intelligence > Features"
+  },
+  {
+   "url": "/ag2/intelligence/managed-intelligence-platform",
+   "name": "Cloud-hosted",
+   "group": "Intelligence > Hosting"
+  },
+  {
+   "url": "/ag2/intelligence/self-hosting",
+   "name": "Self-hosted",
+   "group": "Intelligence > Hosting"
+  },
+  {
+   "url": "/ag2/intelligence/self-hosting-ecs",
+   "name": "AWS ECS/Fargate",
+   "group": "Intelligence > Hosting"
+  },
+  {
+   "url": "/ag2/intelligence/self-hosting-local",
+   "name": "Local evaluation",
+   "group": "Intelligence > Hosting"
+  },
+  {
+   "url": "/ag2/copilot-runtime",
+   "name": "Copilot Runtime",
+   "group": "Backend > Runtime"
+  },
+  {
+   "url": "/ag2/ag-ui",
+   "name": "AG-UI",
+   "group": "Backend > Runtime"
+  },
+  {
+   "url": "/ag2/inspector",
+   "name": "Inspector",
+   "group": "Backend > Debugging"
+  },
+  {
+   "url": "/ag2/contributing/code-contributions/package-linking",
+   "name": "Advanced: Package Linking",
+   "group": "Other > Contributing > Code contributions"
+  },
+  {
+   "url": "/ag2/contributing/docs-contributions",
+   "name": "Documentation Contributions",
+   "group": "Other > Contributing"
+  },
+  {
+   "url": "/ag2/troubleshooting/common-issues",
+   "name": "Common Copilot Issues",
+   "group": "Other > Troubleshooting"
+  },
+  {
+   "url": "/ag2/troubleshooting/error-debugging",
+   "name": "Error Debugging & Observability",
+   "group": "Other > Troubleshooting"
+  },
+  {
+   "url": "/ag2/troubleshooting/migrate-to-1.10.X",
+   "name": "Migrate to 1.10.X",
+   "group": "Other > Troubleshooting"
+  },
+  {
+   "url": "/ag2/troubleshooting/migrate-to-1.8.2",
+   "name": "Migrate to 1.8.2",
+   "group": "Other > Troubleshooting"
+  },
+  {
+   "url": "/ag2/troubleshooting/migrate-to-v2",
+   "name": "Migrate to V2",
+   "group": "Other > Troubleshooting"
+  },
+  {
+   "url": "/ag2/telemetry",
+   "name": "Open-source telemetry",
+   "group": "Other"
+  },
+  {
+   "url": "/ag2/community-frameworks",
+   "name": "Community frameworks",
+   "group": "Other"
+  }
+ ]
+}

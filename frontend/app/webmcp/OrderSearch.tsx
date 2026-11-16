@@ -23,3 +23,14 @@ export function OrderSearch() {
 
   return null;
 }
+
+// HARNESS: searchOrders is called above but never defined on the page (FINDINGS.md minor note, level 3:
+// it stands for the reader's own order lookup). Fixed fake data, same stub as the Antigravity harness.
+async function searchOrders(status: "open" | "shipped" | "delivered") {
+  const all = [
+    { id: "A-1001", status: "open", total: 42 },
+    { id: "A-1002", status: "shipped", total: 18 },
+    { id: "A-1003", status: "delivered", total: 99 },
+  ];
+  return all.filter((o) => o.status === status);
+}

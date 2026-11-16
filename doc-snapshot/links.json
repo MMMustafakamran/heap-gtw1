@@ -1,6 +1,6 @@
 {
- "root": "google-adk",
- "savedAt": "2026-11-12",
+ "root": "ag2",
+ "savedAt": "2026-11-16",
  "pages": {
   "/google-adk/build-with-agents": [],
   "/google-adk/prebuilt-components/sidebar": [
@@ -378,6 +378,256 @@
    "/google-adk/vs-code-extension"
   ],
   "/google-adk/telemetry": [],
-  "/google-adk/community-frameworks": []
+  "/google-adk/community-frameworks": [],
+  "/ag2/custom-look-and-feel/slots": [
+   "/ag2/custom-look-and-feel/markdown"
+  ],
+  "/ag2/quickstart": [
+   "/ag2/auth",
+   "/ag2/human-in-the-loop",
+   "/ag2/inspector",
+   "/ag2/multi-agent/subagents",
+   "/ag2/shared-state"
+  ],
+  "/ag2/custom-look-and-feel/headless-ui": [],
+  "/ag2/build-with-agents": [],
+  "/ag2/prebuilt-components": [],
+  "/ag2": [],
+  "/ag2/programmatic-control": [],
+  "/ag2/frontend-tools": [
+   "/ag2/quickstart"
+  ],
+  "/ag2/prebuilt-components/copilot-threads-drawer": [
+   "/ag2/AG-UI-Streams",
+   "/ag2/headless-threads",
+   "/ag2/migrate/v2",
+   "/ag2/prebuilt-components/chat",
+   "/ag2/threads-lifecycle"
+  ],
+  "/ag2/generative-ui/tool-based": [
+   "/ag2/custom-look-and-feel/headless-ui",
+   "/ag2/generative-ui/tool-rendering",
+   "/ag2/human-in-the-loop"
+  ],
+  "/ag2/generative-ui/tool-rendering": [],
+  "/ag2/headless-threads": [
+   "/ag2/intelligence/quickstart",
+   "/ag2/intelligence/self-hosting",
+   "/ag2/intelligence/threads-explained",
+   "/ag2/prebuilt-components/copilot-threads-drawer",
+   "/ag2/threads-import",
+   "/ag2/threads-lifecycle"
+  ],
+  "/ag2/generative-ui/state-rendering": [],
+  "/ag2/generative-ui/components": [
+   "/ag2/generative-ui/components/catalogs",
+   "/ag2/generative-ui/components/from-a2ui",
+   "/ag2/generative-ui/components/markdown-mode",
+   "/ag2/generative-ui/components/state-and-actions",
+   "/ag2/generative-ui/components/surfaces",
+   "/ag2/generative-ui/components/theming",
+   "/ag2/generative-ui/components/transports",
+   "/ag2/inspector",
+   "/ag2/react-native"
+  ],
+  "/ag2/generative-ui/components/surfaces": [
+   "/ag2/generative-ui/components",
+   "/ag2/generative-ui/components/catalogs",
+   "/ag2/react-native"
+  ],
+  "/ag2/generative-ui/components/standard-catalog": [
+   "/ag2/generative-ui/components/catalogs",
+   "/ag2/generative-ui/components/theming",
+   "/ag2/react-native"
+  ],
+  "/ag2/generative-ui/components/catalogs": [
+   "/ag2/generative-ui/components",
+   "/ag2/generative-ui/components/state-and-actions"
+  ],
+  "/ag2/generative-ui/components/state-and-actions": [
+   "/ag2/react-native"
+  ],
+  "/ag2/generative-ui/components/theming": [
+   "/ag2/react-native"
+  ],
+  "/ag2/generative-ui/components/transports": [
+   "/ag2/generative-ui/components/markdown-mode"
+  ],
+  "/ag2/generative-ui/components/markdown-mode": [
+   "/ag2/generative-ui/components/state-and-actions",
+   "/ag2/generative-ui/components/surfaces",
+   "/ag2/generative-ui/components/transports"
+  ],
+  "/ag2/generative-ui/components/from-a2ui": [
+   "/ag2/generative-ui/components/catalogs",
+   "/ag2/generative-ui/components/markdown-mode",
+   "/ag2/generative-ui/components/state-and-actions",
+   "/ag2/generative-ui/components/surfaces"
+  ],
+  "/ag2/generative-ui/a2ui": [
+   "/ag2/agentic-protocols/ag-ui",
+   "/ag2/concepts/generative-ui-overview",
+   "/ag2/generative-ui/mcp-apps",
+   "/ag2/generative-ui/tool-based",
+   "/ag2/runtime-server-adapter"
+  ],
+  "/ag2/generative-ui/a2ui/dynamic-schema": [
+   "/ag2/generative-ui/a2ui/fixed-schema"
+  ],
+  "/ag2/generative-ui/a2ui/fixed-schema": [
+   "/ag2/generative-ui/a2ui/dynamic-schema"
+  ],
+  "/ag2/generative-ui/json-render": [
+   "/ag2/generative-ui/hashbrown"
+  ],
+  "/ag2/generative-ui/mcp-apps": [
+   "/ag2/generative-ui/mcp-apps"
+  ],
+  "/ag2/generative-ui/hashbrown": [
+   "/ag2/generative-ui/json-render"
+  ],
+  "/ag2/generative-ui/open-generative-ui": [
+   "/ag2/frontend-tools"
+  ],
+  "/ag2/shared-state/read": [],
+  "/ag2/shared-state/write": [
+   "/ag2/shared-state/read"
+  ],
+  "/ag2/human-in-the-loop": [
+   "/ag2/frontend-tools",
+   "/ag2/shared-state"
+  ],
+  "/ag2/human-in-the-loop/useInterrupt": [
+   "/ag2/human-in-the-loop",
+   "/ag2/human-in-the-loop/headless"
+  ],
+  "/ag2/human-in-the-loop/headless": [
+   "/ag2/human-in-the-loop",
+   "/ag2/human-in-the-loop/useInterrupt"
+  ],
+  "/ag2/human-in-the-loop/governed-actions": [
+   "/ag2/frontend-tools",
+   "/ag2/human-in-the-loop",
+   "/ag2/human-in-the-loop/useInterrupt"
+  ],
+  "/ag2/webmcp": [
+   "/ag2/frontend-tools"
+  ],
+  "/ag2/auth": [
+   "/ag2/human-in-the-loop",
+   "/ag2/prebuilt-components",
+   "/ag2/shared-state"
+  ],
+  "/ag2/multi-agent/subagents": [
+   "/ag2/generative-ui/tool-rendering",
+   "/ag2/human-in-the-loop",
+   "/ag2/shared-state"
+  ],
+  "/ag2/threads-import": [
+   "/ag2/headless-threads",
+   "/ag2/intelligence/bring-your-own-thread-system",
+   "/ag2/intelligence/managed-intelligence-platform",
+   "/ag2/intelligence/quickstart",
+   "/ag2/intelligence/self-hosting",
+   "/ag2/intelligence/threads-explained",
+   "/ag2/prebuilt-components/copilot-threads-drawer"
+  ],
+  "/ag2/AG-UI-Streams": [
+   "/ag2/headless-threads",
+   "/ag2/inspector",
+   "/ag2/intelligence/bring-your-own-thread-system",
+   "/ag2/intelligence/managed-intelligence-platform",
+   "/ag2/intelligence/quickstart",
+   "/ag2/intelligence/self-hosting",
+   "/ag2/intelligence/threads-explained",
+   "/ag2/prebuilt-components/copilot-threads-drawer",
+   "/ag2/threads-import",
+   "/ag2/threads-lifecycle"
+  ],
+  "/ag2/threads-lifecycle": [
+   "/ag2/auth",
+   "/ag2/headless-threads",
+   "/ag2/intelligence/bring-your-own-thread-system",
+   "/ag2/intelligence/quickstart",
+   "/ag2/intelligence/threads-explained",
+   "/ag2/threads-import"
+  ],
+  "/ag2/learning": [
+   "/ag2/AG-UI-Streams",
+   "/ag2/cli",
+   "/ag2/inspector",
+   "/ag2/intelligence/capture-interactions",
+   "/ag2/intelligence/learned-skills",
+   "/ag2/intelligence/memories",
+   "/ag2/intelligence/overview",
+   "/ag2/intelligence/quickstart",
+   "/ag2/intelligence/threads-explained"
+  ],
+  "/ag2/copilot-runtime": [
+   "/ag2/AG-UI-Streams",
+   "/ag2/backend/runtime-endpoints",
+   "/ag2/inspector",
+   "/ag2/intelligence/managed-intelligence-platform",
+   "/ag2/intelligence/quickstart",
+   "/ag2/intelligence/self-hosting",
+   "/ag2/quickstart",
+   "/ag2/troubleshooting/error-reference"
+  ],
+  "/ag2/ag-ui": [
+   "/ag2/backend/custom-ag-ui-agent",
+   "/ag2/quickstart"
+  ],
+  "/ag2/inspector": [
+   "/ag2/AG-UI-Streams",
+   "/ag2/agent-config",
+   "/ag2/agentic-protocols/ag-ui",
+   "/ag2/backend/copilot-runtime",
+   "/ag2/backend/runtime-endpoints",
+   "/ag2/frontend-tools",
+   "/ag2/headless-threads",
+   "/ag2/intelligence/quickstart",
+   "/ag2/learning",
+   "/ag2/quickstart",
+   "/ag2/shared-state/agent-readonly",
+   "/ag2/troubleshooting/debug-mode",
+   "/ag2/troubleshooting/error-debugging"
+  ],
+  "/ag2/contributing/code-contributions/package-linking": [],
+  "/ag2/contributing/docs-contributions": [],
+  "/ag2/troubleshooting/common-issues": [
+   "/ag2/quickstart"
+  ],
+  "/ag2/troubleshooting/error-debugging": [
+   "/ag2/troubleshooting/debug-mode",
+   "/ag2/troubleshooting/event-inspector"
+  ],
+  "/ag2/troubleshooting/migrate-to-1.10.X": [
+   "/ag2/intelligence/headless-ui"
+  ],
+  "/ag2/troubleshooting/migrate-to-1.8.2": [],
+  "/ag2/telemetry": [],
+  "/ag2/troubleshooting/migrate-to-v2": [
+   "/ag2/custom-look-and-feel/slots"
+  ],
+  "/ag2/community-frameworks": [],
+  "/ag2/prebuilt-components/chat": [
+   "/ag2/custom-look-and-feel/css",
+   "/ag2/custom-look-and-feel/headless-ui",
+   "/ag2/custom-look-and-feel/slots",
+   "/ag2/headless-threads",
+   "/ag2/migrate/v2",
+   "/ag2/prebuilt-components/copilot-threads-drawer",
+   "/ag2/prebuilt-components/popup",
+   "/ag2/prebuilt-components/sidebar"
+  ],
+  "/ag2/custom-look-and-feel/markdown": [
+   "/ag2/custom-look-and-feel/slots",
+   "/ag2/generative-ui/tool-rendering"
+  ],
+  "/ag2/human-in-the-loop/index": [
+   "/ag2/human-in-the-loop/headless",
+   "/ag2/human-in-the-loop/useInterrupt",
+   "/ag2/inspector"
+  ]
  }
 }

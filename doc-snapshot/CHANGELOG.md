@@ -2,6 +2,48 @@
 
 What each `drift.mjs --sync` took into the snapshot (newest first).
 
+## 2026-11-16
+
+- custom-look-and-feel/markdown: NEW new (+159 / -0)
+- prebuilt-components/chat: NEW new (+88 / -0)
+- prebuilt-components: NEW new (+6 / -0)
+- custom-look-and-feel/headless-ui: NEW new (+167 / -0)
+- quickstart: NEW new (+233 / -0)
+- custom-look-and-feel/slots: NEW new (+425 / -0)
+- programmatic-control: NEW new (+475 / -0)
+- headless-threads: NEW new (+251 / -0)
+- prebuilt-components/copilot-threads-drawer: NEW new (+336 / -0)
+- frontend-tools: NEW new (+128 / -0)
+- human-in-the-loop/index: NEW new (+196 / -0)
+- human-in-the-loop/useInterrupt: NEW new (+160 / -0)
+- human-in-the-loop/governed-actions: NEW new (+256 / -0)
+- generative-ui/tool-based: NEW new (+146 / -0)
+- human-in-the-loop/headless: NEW new (+66 / -0)
+- generative-ui/tool-rendering: NEW new (+188 / -0)
+- generative-ui/state-rendering: NEW new (+167 / -0)
+- generative-ui/components: NEW new (+795 / -0)
+- generative-ui/components/surfaces: NEW new (+427 / -0)
+- generative-ui/components/catalogs: NEW new (+520 / -0)
+- generative-ui/components/standard-catalog: NEW new (+238 / -0)
+- generative-ui/components/state-and-actions: NEW new (+556 / -0)
+- generative-ui/components/theming: NEW new (+203 / -0)
+- generative-ui/components/transports: NEW new (+139 / -0)
+- generative-ui/components/markdown-mode: NEW new (+188 / -0)
+- generative-ui/components/from-a2ui: NEW new (+279 / -0)
+- generative-ui/a2ui: NEW new (+197 / -0)
+- generative-ui/a2ui/dynamic-schema: NEW new (+689 / -0)
+- generative-ui/a2ui/fixed-schema: NEW new (+464 / -0)
+- generative-ui/json-render: NEW new (+265 / -0)
+- generative-ui/hashbrown: NEW new (+355 / -0)
+- generative-ui/mcp-apps: NEW new (+315 / -0)
+- generative-ui/open-generative-ui: NEW new (+298 / -0)
+- shared-state/read: NEW new (+191 / -0)
+- shared-state/write: NEW new (+194 / -0)
+- webmcp: NEW new (+165 / -0)
+- auth: NEW new (+254 / -0)
+- multi-agent/subagents: NEW new (+241 / -0)
+- sidebar: added /ag2, /ag2/quickstart, /ag2/build-with-agents, /ag2/intelligence/overview, /ag2/prebuilt-components, /ag2/custom-look-and-feel/headless-ui, /ag2/custom-look-and-feel/slots, /ag2/programmatic-control, /ag2/prebuilt-components/copilot-threads-drawer, /ag2/headless-threads, /ag2/frontend-tools, /ag2/generative-ui/tool-based, /ag2/generative-ui/tool-rendering, /ag2/generative-ui/state-rendering, /ag2/generative-ui/components, /ag2/generative-ui/components/surfaces, /ag2/generative-ui/components/catalogs, /ag2/generative-ui/components/standard-catalog, /ag2/generative-ui/components/state-and-actions, /ag2/generative-ui/components/theming, /ag2/generative-ui/components/transports, /ag2/generative-ui/components/markdown-mode, /ag2/generative-ui/components/from-a2ui, /ag2/generative-ui/a2ui, /ag2/generative-ui/a2ui/dynamic-schema, /ag2/generative-ui/a2ui/fixed-schema, /ag2/generative-ui/json-render, /ag2/generative-ui/hashbrown, /ag2/generative-ui/mcp-apps, /ag2/generative-ui/open-generative-ui, /ag2/shared-state/read, /ag2/shared-state/write, /ag2/human-in-the-loop, /ag2/human-in-the-loop/useInterrupt, /ag2/human-in-the-loop/headless, /ag2/human-in-the-loop/governed-actions, /ag2/webmcp, /ag2/auth, /ag2/multi-agent/subagents, /ag2/intelligence/quickstart, /ag2/intelligence/intelligence-platform, /ag2/intelligence/plans, /ag2/AG-UI-Streams, /ag2/intelligence/bring-your-own-thread-system, /ag2/threads-import, /ag2/threads-lifecycle, /ag2/intelligence/threads-explained, /ag2/learning, /ag2/intelligence/learned-skills, /ag2/intelligence/memories, /ag2/intelligence/trajectories, /ag2/intelligence/trajectories-quickstart, /ag2/intelligence/capture-interactions, /ag2/intelligence/captured-data, /ag2/intelligence/trajectories-reference, /ag2/intelligence/standalone-collector, /ag2/intelligence/analytics, /ag2/intelligence/channels, /ag2/intelligence/managed-intelligence-platform, /ag2/intelligence/self-hosting, /ag2/intelligence/self-hosting-ecs, /ag2/intelligence/self-hosting-local, /ag2/copilot-runtime, /ag2/ag-ui, /ag2/inspector, /ag2/contributing/code-contributions/package-linking, /ag2/contributing/docs-contributions, /ag2/troubleshooting/common-issues, /ag2/troubleshooting/error-debugging, /ag2/troubleshooting/migrate-to-1.10.X, /ag2/troubleshooting/migrate-to-1.8.2, /ag2/troubleshooting/migrate-to-v2, /ag2/telemetry, /ag2/community-frameworks; removed /google-adk, /google-adk/quickstart, /google-adk/build-with-agents, /google-adk/intelligence/overview, /google-adk/prebuilt-components/chat, /google-adk/prebuilt-components/sidebar, /google-adk/prebuilt-components/popup, /google-adk/prebuilt-components/chat-controls, /google-adk/custom-look-and-feel/css, /google-adk/custom-look-and-feel/slots, /google-adk/custom-look-and-feel/markdown, /google-adk/custom-look-and-feel/headless-ui, /google-adk/custom-look-and-feel/reasoning-messages, /google-adk/multimodal-attachments, /google-adk/voice, /google-adk/generative-ui/reasoning, /google-adk/prebuilt-components/copilot-threads-drawer, /google-adk/headless-threads, /google-adk/frontend-tools, /google-adk/generative-ui/tool-based, /google-adk/generative-ui/tool-rendering, /google-adk/generative-ui/state-rendering, /google-adk/generative-ui/components, /google-adk/generative-ui/components/surfaces, /google-adk/generative-ui/components/catalogs, /google-adk/generative-ui/components/standard-catalog, /google-adk/generative-ui/components/state-and-actions, /google-adk/generative-ui/components/theming, /google-adk/generative-ui/components/transports, /google-adk/generative-ui/components/markdown-mode, /google-adk/generative-ui/components/from-a2ui, /google-adk/generative-ui/a2ui, /google-adk/generative-ui/a2ui/dynamic-schema, /google-adk/generative-ui/a2ui/fixed-schema, /google-adk/generative-ui/json-render, /google-adk/generative-ui/hashbrown, /google-adk/generative-ui/mcp-apps, /google-adk/generative-ui/open-generative-ui, /google-adk/shared-state, /google-adk/shared-state/rendering-in-app, /google-adk/shared-state/streaming, /google-adk/shared-state/agent-readonly, /google-adk/human-in-the-loop, /google-adk/human-in-the-loop/useInterrupt, /google-adk/human-in-the-loop/headless, /google-adk/human-in-the-loop/governed-actions, /google-adk/webmcp, /google-adk/agent-app-context, /google-adk/deploy-langsmith, /google-adk/multi-agent/subagents, /google-adk/intelligence/quickstart, /google-adk/intelligence/intelligence-platform, /google-adk/intelligence/plans, /google-adk/AG-UI-Streams, /google-adk/intelligence/bring-your-own-thread-system, /google-adk/threads-import, /google-adk/threads-lifecycle, /google-adk/intelligence/threads-explained, /google-adk/learning, /google-adk/intelligence/learned-skills, /google-adk/intelligence/memories, /google-adk/intelligence/trajectories, /google-adk/intelligence/trajectories-quickstart, /google-adk/intelligence/capture-interactions, /google-adk/intelligence/captured-data, /google-adk/intelligence/trajectories-reference, /google-adk/intelligence/standalone-collector, /google-adk/intelligence/analytics, /google-adk/intelligence/channels, /google-adk/intelligence/managed-intelligence-platform, /google-adk/intelligence/self-hosting, /google-adk/intelligence/self-hosting-ecs, /google-adk/intelligence/self-hosting-local, /google-adk/backend/copilot-runtime, /google-adk/backend/runtime-endpoints, /google-adk/backend/custom-agent, /google-adk/backend/custom-ag-ui-agent, /google-adk/backend/agent-runner, /google-adk/backend/message-history, /google-adk/backend/self-managed-agents, /google-adk/backend/ag-ui, /google-adk/runtime-server-adapter, /google-adk/auth, /google-adk/deploy/agentcore, /google-adk/deploy/aws-lambda, /google-adk/deploy/langsmith, /google-adk/inspector, /google-adk/vs-code-extension, /google-adk/concepts/architecture, /google-adk/concepts/generative-ui-overview, /google-adk/concepts/which-hook, /google-adk/concepts/oss-vs-enterprise, /google-adk/agentic-protocols, /google-adk/agentic-protocols/ag-ui, /google-adk/agentic-protocols/ag-ui-middleware, /google-adk/agentic-protocols/mcp, /google-adk/agentic-protocols/a2a, /google-adk/contributing/code-contributions, /google-adk/contributing/docs-contributions, /google-adk/troubleshooting/common-issues, /google-adk/troubleshooting/error-reference, /google-adk/troubleshooting/error-debugging, /google-adk/troubleshooting/inspector-dev-console, /google-adk/troubleshooting/debug-mode, /google-adk/troubleshooting/event-inspector, /google-adk/troubleshooting/hook-explorer, /google-adk/telemetry, /google-adk/community-frameworks
+
 ## 2026-11-12
 
 - prebuilt-components/chat: NEW new (+88 / -0)

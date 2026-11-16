@@ -15,7 +15,7 @@
   },
   {
    "at": "demo",
-   "text": "Moving on to the demo. It should show products in the featured row, but uh, nothing renders there, the agent says it can't access the catalog."
+   "text": "Moving on to the demo. It should fill the featured row with products from the agent, but uh, the agent says it can't access the catalog, so only the placeholder row shows."
   },
   {
    "at": "+",
