@@ -4,8 +4,8 @@
  "repo": "heap-gtw1",
  "docBase": "https://docs.copilotkit.ai/ag2/",
  "versions": {
-  "@copilotkit/react-core": "1.87.1",
-  "@copilotkit/runtime": "1.87.1",
+  "@copilotkit/react-core": "1.88.0",
+  "@copilotkit/runtime": "1.88.0",
   "@ag-ui/client": "1.0.4",
   "next": "16.4.6",
   "react": "19.3.0",
@@ -140,7 +140,8 @@
     {
      "text": "Quickstart - JS",
      "clip": "AG2-react-01-Quickstart",
-     "loom": null
+     "loom": "https://www.loom.com/share/d574e5b447cf4bf7bbd614dcaa138467",
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -160,8 +161,8 @@
     {
      "text": "Prebuilt Components - JS",
      "clip": "AG2-react-02-PrebuiltComponents",
-     "loom": "https://www.loom.com/share/50f966b9e5394745a8b4b5900ead8a87",
-     "filmed": "2026-11-13"
+     "loom": "https://www.loom.com/share/1ced1e26f6944c199cc8deacfbf91243",
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -183,8 +184,8 @@
     {
      "text": "CopilotChat - JS",
      "clip": "AG2-react-03-CopilotChat",
-     "loom": "https://www.loom.com/share/71d50866a7da45fbb65a19c51effc21f",
-     "filmed": "2026-11-13"
+     "loom": "https://www.loom.com/share/019bf6efaf864024914060407fe26740",
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -204,8 +205,8 @@
     {
      "text": "Slots - JS",
      "clip": "AG2-react-04-Slots",
-     "loom": "https://www.loom.com/share/d5e5355d385249bda7ef2112911c2be1",
-     "filmed": "2026-11-13"
+     "loom": "https://www.loom.com/share/fdbe7824e6bb4cfba9c99a462d0a52a5",
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -225,8 +226,8 @@
     {
      "text": "Markdown Rendering - JS",
      "clip": "AG2-react-05-MarkdownRendering",
-     "loom": "https://www.loom.com/share/f7b11893baac49d79792aca3a77d2d7c",
-     "filmed": "2026-11-13"
+     "loom": "https://www.loom.com/share/647ee923158c4d23bb0eb623c77f4f11",
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -248,8 +249,8 @@
     {
      "text": "Headless UI - JS",
      "clip": "AG2-react-06-HeadlessUi",
-     "loom": "https://www.loom.com/share/833280da28c14005923d3fa8da25eb45",
-     "filmed": "2026-11-13"
+     "loom": "https://www.loom.com/share/ee801a5595cb4594ad62e1a447c32840",
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -273,7 +274,7 @@
     {
      "text": "Issue",
      "clip": "AG2-react-07-ProgrammaticControl",
-     "loom": "https://www.loom.com/share/a788086ed725487dae33f3de9012241c",
+     "loom": "https://www.loom.com/share/c18458e3a82b468eab3a0a73268817bc",
      "narration": {
       "clip": "AG2-react-07-ProgrammaticControl",
       "segments": [
@@ -295,7 +296,7 @@
        }
       ]
      },
-     "filmed": "2026-11-13"
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -315,8 +316,8 @@
     {
      "text": "Threads Drawer - JS",
      "clip": "AG2-react-08-ThreadsDrawer",
-     "loom": "https://www.loom.com/share/b7bacaf428e6447585cc9a488137bce6",
-     "filmed": "2026-11-13"
+     "loom": "https://www.loom.com/share/35ce2c07ff4146bd92dd78fb5400adb8",
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -340,7 +341,7 @@
     {
      "text": "Issue",
      "clip": "AG2-react-09-HeadlessThreads",
-     "loom": "https://www.loom.com/share/0561c6d4caec456db8e00cffbaaee5a1",
+     "loom": "https://www.loom.com/share/499397ae221f45c180577809be214669",
      "narration": {
       "clip": "AG2-react-09-HeadlessThreads",
       "segments": [
@@ -382,7 +383,7 @@
        }
       ]
      },
-     "filmed": "2026-11-13"
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -402,8 +403,8 @@
     {
      "text": "Frontend Tools - JS",
      "clip": "AG2-react-10-FrontendTools",
-     "loom": "https://www.loom.com/share/80b4c1512a4149d7ba43a8d8d7251f8d",
-     "filmed": "2026-11-13"
+     "loom": "https://www.loom.com/share/74d309e3c91d4c238efe00f7f60c12b2",
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -425,8 +426,8 @@
     {
      "text": "HITL - JS",
      "clip": "AG2-react-11-Hitl",
-     "loom": "https://www.loom.com/share/fb866c6bdb94411f840ddac9fc4765e4",
-     "filmed": "2026-11-13"
+     "loom": "https://www.loom.com/share/a1a73ec8f0c4430ea58861d09c84ae6d",
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -480,8 +481,8 @@
     {
      "text": "Governed Actions - JS",
      "clip": "AG2-react-12-GovernedActions",
-     "loom": "https://www.loom.com/share/53f7fe75636c4e62b98dd71442939a38",
-     "filmed": "2026-11-13"
+     "loom": "https://www.loom.com/share/8b06cc0b4fa848bf95d98ba6f50084d4",
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -503,8 +504,8 @@
     {
      "text": "Components as Tools - JS",
      "clip": "AG2-react-13-GenUiToolBased",
-     "loom": "https://www.loom.com/share/995fe83943bf4890a85567dd2cec97fa",
-     "filmed": "2026-11-13"
+     "loom": "https://www.loom.com/share/984506d2bbf34ec5952708650d4c3893",
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -524,8 +525,8 @@
     {
      "text": "Tool Rendering - JS",
      "clip": "AG2-react-14-GenUiToolRendering",
-     "loom": "https://www.loom.com/share/78c755977cb34a45925e936d61b4b88b",
-     "filmed": "2026-11-13"
+     "loom": "https://www.loom.com/share/dae0476a2d8c4c15961367444c545e77",
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -545,8 +546,8 @@
     {
      "text": "State Rendering - JS",
      "clip": "AG2-react-15-GenUiStateRendering",
-     "loom": "https://www.loom.com/share/d546510f771c4963bbb00deb8f802e82",
-     "filmed": "2026-11-13"
+     "loom": "https://www.loom.com/share/fedf6f6fbd524d5da57baf77dcbffe8e",
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -570,7 +571,7 @@
     {
      "text": "Issue",
      "clip": "AG2-react-24-GenUiComponents",
-     "loom": "https://www.loom.com/share/0b7d7fb17a0b464c86d5187ca6bc2c03",
+     "loom": "https://www.loom.com/share/8134e41d0ad54dd881e4c1dfb18d1957",
      "narration": {
       "clip": "AG2-react-24-GenUiComponents",
       "segments": [
@@ -592,7 +593,7 @@
        }
       ]
      },
-     "filmed": "2026-11-13"
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -616,7 +617,7 @@
     {
      "text": "Issue",
      "clip": "AG2-react-25-GenUiSurfaces",
-     "loom": "https://www.loom.com/share/dfb6b6d0562747bc9912c083ffcba066",
+     "loom": "https://www.loom.com/share/16ac8a0679ff4528a5d79bd122b7a288",
      "narration": {
       "clip": "AG2-react-25-GenUiSurfaces",
       "segments": [
@@ -642,7 +643,7 @@
        }
       ]
      },
-     "filmed": "2026-11-13"
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -662,8 +663,8 @@
     {
      "text": "Catalogs - JS",
      "clip": "AG2-react-26-GenUiCatalogs",
-     "loom": "https://www.loom.com/share/cf3fc6b7bfba4e2c82ffdb7b1735766b",
-     "filmed": "2026-11-13"
+     "loom": "https://www.loom.com/share/91e37730e24b48d1b09c6e3de63769e5",
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -685,8 +686,8 @@
     {
      "text": "Standard catalog - JS",
      "clip": "AG2-react-27-GenUiStandardCatalog",
-     "loom": "https://www.loom.com/share/418fea6c9d3141199e72ba078473ef77",
-     "filmed": "2026-11-13"
+     "loom": "https://www.loom.com/share/f5129f45211540c88ed1d63e016d138e",
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -708,8 +709,8 @@
     {
      "text": "State and actions - JS",
      "clip": "AG2-react-28-GenUiStateActions",
-     "loom": "https://www.loom.com/share/ff1e6103a1654b459731aded3c0e4263",
-     "filmed": "2026-11-13"
+     "loom": "https://www.loom.com/share/fccec537eb2444ea96f3b95009e499e4",
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -729,8 +730,8 @@
     {
      "text": "Theming - JS",
      "clip": "AG2-react-29-GenUiTheming",
-     "loom": "https://www.loom.com/share/0430c70b75ea43ca97b03c2135a824a6",
-     "filmed": "2026-11-13"
+     "loom": "https://www.loom.com/share/a38a354d56de4e22a5f901f11923733d",
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -750,8 +751,8 @@
     {
      "text": "Transports - JS",
      "clip": "AG2-react-30-GenUiTransports",
-     "loom": "https://www.loom.com/share/06773aa1b8c0455faf043ded08b8caad",
-     "filmed": "2026-11-13"
+     "loom": "https://www.loom.com/share/29c6c9e08c474205bf285d3da37dca15",
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -771,8 +772,8 @@
     {
      "text": "Markdown mode - JS",
      "clip": "AG2-react-31-GenUiMarkdownMode",
-     "loom": "https://www.loom.com/share/ee63ca90b49e48c5a0937baf22953253",
-     "filmed": "2026-11-13"
+     "loom": "https://www.loom.com/share/9a32b52a1aef43ccaf150eea0b8b04ba",
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -794,8 +795,8 @@
     {
      "text": "Adopt from A2UI - JS",
      "clip": "AG2-react-32-GenUiFromA2ui",
-     "loom": "https://www.loom.com/share/dbba3ae11283487298e51fb1661d07a5",
-     "filmed": "2026-11-13"
+     "loom": "https://www.loom.com/share/6b063c21248e45b094f107c7775d8d7f",
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -815,8 +816,8 @@
     {
      "text": "A2UI - JS",
      "clip": "AG2-react-16-A2UI",
-     "loom": "https://www.loom.com/share/4325570ed2a4424ba421176c5dff6d8b",
-     "filmed": "2026-11-13"
+     "loom": "https://www.loom.com/share/a1c37488de7346dabaaf4d398cc5ecab",
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -840,7 +841,7 @@
     {
      "text": "Issue",
      "clip": "AG2-react-17-A2UIDynamicSchema",
-     "loom": "https://www.loom.com/share/f5093d2cc69644bf95228d200e466f9a",
+     "loom": "https://www.loom.com/share/e5ca8aed609c473aa7159ab823f5bd95",
      "narration": {
       "clip": "AG2-react-17-A2UIDynamicSchema",
       "segments": [
@@ -882,7 +883,7 @@
        }
       ]
      },
-     "filmed": "2026-11-13"
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -906,7 +907,7 @@
     {
      "text": "Issue",
      "clip": "AG2-react-18-A2UIFixedSchema",
-     "loom": "https://www.loom.com/share/fa2e56ab4a4547afbbe7ebf6b17884b2",
+     "loom": "https://www.loom.com/share/7e2ef6feccd94b06bf2d3ad9374315bd",
      "narration": {
       "clip": "AG2-react-18-A2UIFixedSchema",
       "segments": [
@@ -928,7 +929,7 @@
        }
       ]
      },
-     "filmed": "2026-11-13"
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -982,7 +983,8 @@
     {
      "text": "MCP Apps - JS",
      "clip": "AG2-react-19-GenUiMcpApps",
-     "loom": null
+     "loom": "https://www.loom.com/share/774d31ec0acf40d8b96dd8bad5c057ea",
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -1004,8 +1006,8 @@
     {
      "text": "Open Generative UI - JS",
      "clip": "AG2-react-20-GenUiOpenGenUi",
-     "loom": "https://www.loom.com/share/b88ce75ec8ac4d7b808808a052fc8287",
-     "filmed": "2026-11-13"
+     "loom": "https://www.loom.com/share/a2bf829616c248fd8587816d1719a9ee",
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -1025,8 +1027,8 @@
     {
      "text": "Reading Agent State - JS",
      "clip": "AG2-react-21-SharedStateRead",
-     "loom": "https://www.loom.com/share/7f7aab0475bc477fac9a943ff060b0ae",
-     "filmed": "2026-11-13"
+     "loom": "https://www.loom.com/share/314d789e14af46d1a0a6220689cf9c88",
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -1050,7 +1052,7 @@
     {
      "text": "Issue",
      "clip": "AG2-react-22-SharedStateWrite",
-     "loom": "https://www.loom.com/share/c8feadc3a0d34b21aff6692854fef5a7",
+     "loom": "https://www.loom.com/share/8cdd5c067a7d45e599cbb1b8d5a745e4",
      "narration": {
       "clip": "AG2-react-22-SharedStateWrite",
       "segments": [
@@ -1088,7 +1090,7 @@
        }
       ]
      },
-     "filmed": "2026-11-13"
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -1110,7 +1112,8 @@
     {
      "text": "WebMCP - JS",
      "clip": "AG2-react-33-WebMcp",
-     "loom": null
+     "loom": "https://www.loom.com/share/98753bb919cb4d69be4018dd9599a440",
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -1135,7 +1138,7 @@
     {
      "text": "Not Working",
      "clip": "AG2-react-34-Auth",
-     "loom": "https://www.loom.com/share/f6d2fbc045f8450b835a3c40da225ae1",
+     "loom": "https://www.loom.com/share/2f643d303c9c455eb0d54809c537d472",
      "narration": {
       "clip": "AG2-react-34-Auth",
       "segments": [
@@ -1177,7 +1180,7 @@
        }
       ]
      },
-     "filmed": "2026-11-13"
+     "filmed": "2026-11-16"
     }
    ]
   },
@@ -1199,8 +1202,8 @@
     {
      "text": "Sub Agents - JS",
      "clip": "AG2-react-23-Subagents",
-     "loom": "https://www.loom.com/share/0bf26d343ad2484aad0751fe0104a5ed",
-     "filmed": "2026-11-13"
+     "loom": "https://www.loom.com/share/ebda326238a04af88f8a73dc203358ca",
+     "filmed": "2026-11-16"
     }
    ]
   }

@@ -1,6 +1,6 @@
 # Findings — AG2-React
 Open doc defects only, for https://docs.copilotkit.ai/ag2 (React). Numbers are stable IDs (code cites `FINDINGS.md #N`); gaps are removed findings. Agents run on OpenAI with the doc's own model ids.
-Stack: harness frontend `@copilotkit/react-core`/`runtime` 1.87.1 (latest), `@ag-ui/client` 1.0.4, `next` 16.4.6, `react` 19.3.0, `recharts` 3.10.1 (HARNESS); backend `ag2[a2ui,ag-ui,openai]` 1.3.1, `ag-ui-protocol` 1.0.0, `fastapi` 0.162.5, `uvicorn` 0.54.0. Quickstart sample (ag2ai/ag2-samples lockfiles): `ag2` 1.1.2, `@copilotkit/react-core`/`runtime` 1.76.0, pnpm 11.23.0. Node 26.7.0, npm 12.0.2, Python 3.13, uv 0.12.5, Windows 11 Pro. Docs: https://docs.copilotkit.ai/ag2 (snapshot 2026-11-13)
+Stack: harness frontend `@copilotkit/react-core`/`runtime` 1.88.0 (npm latest, CI 2026-11-16) (latest), `@ag-ui/client` 1.0.4, `next` 16.4.6, `react` 19.3.0, `recharts` 3.10.1 (HARNESS); backend `ag2[a2ui,ag-ui,openai]` 1.3.1, `ag-ui-protocol` 1.0.0, `fastapi` 0.162.5, `uvicorn` 0.54.0. Quickstart sample (ag2ai/ag2-samples lockfiles): `ag2` 1.1.2, `@copilotkit/react-core`/`runtime` 1.76.0, pnpm 11.23.0. Node 26.7.0, npm 12.0.2, Python 3.13, uv 0.12.5, Windows 11 Pro. Docs: https://docs.copilotkit.ai/ag2 (snapshot 2026-11-13)
 
 ## Dev blockers (seen with `npm run dev` and normal use of the page)
 
@@ -33,7 +33,7 @@ Stack: harness frontend `@copilotkit/react-core`/`runtime` 1.87.1 (latest), `@ag
 - **Confirmed by harness:** with the 4 missing files stubbed (HARNESS) the surface still fails.
 
 ### [Fixed Schema A2UI](https://docs.copilotkit.ai/ag2/generative-ui/a2ui/fixed-schema)
-**#7 The flight card renders with airports, airline and price empty (already reported by the team).** Backend steps render as skipped snippets; Code-tab imports `./chat`, `../_components/*`, `._loop_cap` never shown.
+**#7 The flight card renders with airports, airline and price empty (already reported by the team).** Backend steps render as skipped snippets; Code-tab imports `./chat`, `../_components/*`, `._loop_cap` never shown. Console on 2026-11-16 (CopilotKit 1.88.0): the agent calls `display_flight`, "no renderer is registered", so that message renders nothing.
 
 ### [Writing agent state](https://docs.copilotkit.ai/ag2/shared-state/write)
 **#8 The agent never uses the state the UI writes.**
